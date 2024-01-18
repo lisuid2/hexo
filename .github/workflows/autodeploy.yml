@@ -56,7 +56,7 @@ jobs:
       - name: 部署到Github
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: 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
+          token: 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
           repository-name: lisuid2/lisuid2.github.io
           branch: main
           folder: public
