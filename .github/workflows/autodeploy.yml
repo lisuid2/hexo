@@ -61,3 +61,66 @@ jobs:
           branch: main
           folder: public
           commit-message: "${{ github.event.head_commit.message }} Updated By Github Actions"
+name: 自动部署
+# 当有改动推送到master分支时，启动Action
+on:
+  push:
+    branches:
+      - main
+  release:
+    types:
+      - published
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检查分支
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: 安装 Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+      - name: 安装 Hexo！
+        run: |
+          export TZ='Asia/Shanghai'
+          npm install hexo-cli -g
+
+      - name: 缓存 Hexo！
+        id: cache-npm
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      - name: 安装依赖！
+        if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
+        run: |
+          npm install gulp-cli -g
+          npm install --save
+          npm install hexo-renderer-pug
+
+      - name: 生成静态文件！
+        run: |
+          hexo clean
+          hexo generate
+          hexo algolia
+          gulp
+
+      - name: 部署到Github
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          token: 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
+          repository-name: lisuid2/lisuid2.github.io
+          branch: main
+          folder: public
+          commit-message: "${{ github.event.head_commit.message }} Updated By Github Actions"
