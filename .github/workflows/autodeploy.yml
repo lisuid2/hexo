@@ -1,9 +1,11 @@
-name: 自动部署
 # 当有改动推送到master分支时，启动Action
+name: 自动部署
+
 on:
   push:
     branches:
-      - main
+      - main  #2020年10月后github新建仓库默认分支改为main，注意更改
+
   release:
     types:
       - published
@@ -12,115 +14,47 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: 检查分支
-        uses: actions/checkout@v3
-        with:
-          ref: main
+    - name: 检查分支
+      uses: actions/checkout@v3
+      with:
+        ref: main  #2020年10月后github新建仓库默认分支改为main，注意更改
 
-      - name: 安装 Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: "16.x"
-      - name: 安装 Hexo！
-        run: |
-          export TZ='Asia/Shanghai'
-          npm install hexo-cli -g
+    - name: 安装 Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: "16.x"
 
-      - name: 缓存 Hexo！
-        id: cache-npm
-        uses: actions/cache@v3
-        env:
-          cache-name: cache-node-modules
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
+    - name: 安装 Hexo
+      run: |
+        export TZ='Asia/Shanghai'
+        npm install hexo-cli -g
 
-      - name: 安装依赖！
-        if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
-        run: |
-          npm install gulp-cli -g
-          npm install --save
-          npm install hexo-renderer-pug
+    - name: 缓存 Hexo
+      uses: actions/cache@v3
+      id: cache
+      with:
+        path: node_modules
+        key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
 
-      - name: 生成静态文件！
-        run: |
-          hexo clean
-          hexo generate
-          hexo algolia
-          gulp
+    - name: 安装依赖
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: |
+        npm install --save
 
-      - name: 部署到Github
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          token: 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
-          repository-name: lisuid2/lisuid2.github.io
-          branch: main
-          folder: public
-          commit-message: "${{ github.event.head_commit.message }} Updated By Github Actions"
-name: 自动部署
-# 当有改动推送到master分支时，启动Action
-on:
-  push:
-    branches:
-      - main
-  release:
-    types:
-      - published
+    - name: 生成静态文件
+      run: |
+        hexo clean
+        hexo generate
+        hexo algolia
+        gulp
 
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 检查分支
-        uses: actions/checkout@v3
-        with:
-          ref: main
-
-      - name: 安装 Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: "16.x"
-      - name: 安装 Hexo！
-        run: |
-          export TZ='Asia/Shanghai'
-          npm install hexo-cli -g
-
-      - name: 缓存 Hexo！
-        id: cache-npm
-        uses: actions/cache@v3
-        env:
-          cache-name: cache-node-modules
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
-
-      - name: 安装依赖！
-        if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
-        run: |
-          npm install gulp-cli -g
-          npm install --save
-          npm install hexo-renderer-pug
-
-      - name: 生成静态文件！
-        run: |
-          hexo clean
-          hexo generate
-          hexo algolia
-          gulp
-
-      - name: 部署到Github
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          token: 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
-          repository-name: lisuid2/lisuid2.github.io
-          branch: main
-          folder: public
-          commit-message: "${{ github.event.head_commit.message }} Updated By Github Actions"
+    - name: 部署
+      run: |
+        cd ./public
+        git init
+        git config --global user.name '${{ secrets.GITHUBUSERNAME }}'
+        git config --global user.email '${{ secrets.GITHUBEMAIL }}'
+        git add .
+        git commit -m "${{ github.event.head_commit.message }} $(date +"%Z  %Y-%m-%d %A %H:%M:%S") Updated By Github Actions"
+        git push --force --quiet "https://${{ secrets.GITHUBUSERNAME }}:${{   secrets.GITHUBTOKEN }}@github.com/${{ secrets.GITHUBUSERNAME }}/${{   secrets.GITHUBUSERNAME }}.github.io.git" master:master
+         # git push --force --quiet "https://${{ secrets.GITEEUSERNAME }}:${{   secrets.GITEETOKEN }}@gitee.com/${{ secrets.GITEEUSERNAME }}/${{  secrets.GITEEUSERNAME }}.git" master:master #gitee部署写法，需要的自行取 消注释
