@@ -7,8 +7,8 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
-    "deploySSH": "hexo clean && hexo g && gulp && hexo d",
-    "deploySSH1": "hexo cl && hexo g && gulp && hexo swpp && hexo d"
+    "lisui": "hexo clean && hexo g && gulp && hexo d",
+    "li": "hexo cl && hexo g && gulp && hexo swpp && hexo d"
   },
   "hexo": {
     "version": "6.3.0"

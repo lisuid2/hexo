@@ -5,6 +5,7 @@ tags:
 categories:
   - [教程]
 recommend: true
+cover: https://s3.qjqq.cn/3/65aa50f79eacd.webp!color
 abbrlink: aa9c54d4
 date: 2023-11-06 16:51:56
 ---

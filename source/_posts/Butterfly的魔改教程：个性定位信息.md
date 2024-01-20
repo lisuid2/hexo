@@ -6,7 +6,7 @@ tags:
 categories:
   - [教程]
   - [Butterfly]
-cover: 'https://s3.qjqq.cn/3/64dcc11e2368e.webp!color'
+cover: 'https://s3.qjqq.cn/3/65aa513bb0b72.webp!color'
 abbrlink: af19e490
 date: 2023-11-06 16:50:07
 ---

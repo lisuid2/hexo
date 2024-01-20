@@ -513,7 +513,7 @@ thirdparty:
   # tip：开启前需要安装字数统计插件
   wordcount: false
   # 访问统计
-  busuanzi: true
+  busuanzi: false
   # 搜索
   # tip：开启前需要安装搜索插件
   search:
@@ -599,9 +599,9 @@ comment:
     - '小仙女'
   # twikoo配置信息
   twikoo: # https://twikoo.js.org/
-    envId: https://twikoo.lisui.top/
+    envId: https://twikoo.lisui.top/.netlify/functions/twikoo
     lang: 'zh-CN' # 语言
-    accessToken: 18a3dc6f0000431dab4b26ab72459b43 # accessToken
+    accessToken: 	992a1f07d6284545bc1d121919d96165 # accessToken
   # waline配置信息
   waline: # https://waline.js.org/
     envId:  # url:
@@ -718,7 +718,7 @@ cdn:
     scoicon: https://cdn2.codesign.qq.com/icons/7pOrz0WXB5ZWJPX/latest/iconfont.css
     aplayercss: https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css
     swipercss: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/Swiper/8.0.6/swiper-bundle.min.css
-    twikoojs: https://cdn.staticfile.org/twikoo/1.6.29/twikoo.min.js
+    twikoojs: https://cdn.staticfile.org/twikoo/1.6.30/twikoo.min.js
     instantsearch: https://cdn.staticfile.org/instantsearch.js/4.56.10/instantsearch.production.min.js
     algoliajs: https://cdn.staticfile.org/algoliasearch/4.20.0/algoliasearch-lite.umd.min.js
     pacejs: https://cdn.staticfile.org/pace/1.2.4/pace.min.js
