@@ -477,7 +477,7 @@ hightlight:
   copy: true # 是否开启复制按钮
   expand: false # 是否默认展开
   # 代码块样式
-  theme: mac # default: 默认 / mac
+  theme: default # default: 默认 / mac
   color: default # default: 默认  / vscode / solarized-dark / solarized-light / dracula / monokai
 
 # 加载动画
