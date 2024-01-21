@@ -103,7 +103,9 @@ theme: solitude
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
  type: 'git'
- repo: git@github.com:lisuid2/lisuid2.github.io.git
+ repo: 
+   Github: git@github.com:lisuid2/lisuid2.github.io.git
+   gitee:  git@gitee.com:light-starry-sand/light-starry-sand.git
  branch : main
  message: upload
 
