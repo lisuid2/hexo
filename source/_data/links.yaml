@@ -142,13 +142,17 @@ links:
         avatar: https://s3.qjqq.cn/3/6597fa06f3f1a.webp!color
         descr: 老怀表
         color: vip
-
         tag: 技术
+
       - name: 冰火之砺
         link: https://blog.marice.top/
         avatar: https://bu.dusays.com/2023/11/29/6567122d3f4a6.jpg
         descr: 水穷暖春云起处
         color: vip
+      - name: 明月博客
+        link: https://www.imydl.com/
+        avatar: https://www.imydl.com/wp-content/uploads/avatars/0ffc984d88751e6aa346bb2351b3d253.png
+        descr: 一个小小站长的博客
 
 
   - class_name: 推荐 # 分类名称
