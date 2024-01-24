@@ -23,7 +23,7 @@ site:
   # 页脚的Logo、加载动画默认的logo
   icon: https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg
   # ICP 例如：湘ICP备2023015327号
-  icp:
+  icp: 本网站由蓝易云<a href="https://www.tsycdn.com/" target="_blank">CDN</a>提供加速服务。粤ICP备2023117582
 
 # 导航栏
 nav:
