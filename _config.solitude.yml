@@ -168,7 +168,7 @@ hometop:
     url: https://docs.wzsco.top/
     # 显示背景图片
     # Display background image
-    img: /img/default.png
+    img: https://s3.qjqq.cn/3/6533a80c4f136.webp!color
     # 阴影颜色
     # Shadow color
     color: "#ff0000"
@@ -467,20 +467,20 @@ footer:
   # 底部导航栏
   # Bottom navigation bar
   group:
-  # 导航:
-  #   归档: /archives/
-  #   分类: /categories/
-  #   标签: /tags/
-  # 服务:
-  #   阿里云: https://aliyun.com/
-  #   51la统计: https://v6.51.la/
-  #   百度统计: https://tongji.baidu.com/
+   导航:
+     归档: /archives/
+     分类: /categories/
+     标签: /tags/
+   服务:
+     阿里云: https://aliyun.com/
+     51la统计: https://v6.51.la/
+     百度统计: https://tongji.baidu.com/
   # 支持:
   #   打赏记录: /about/
-  # 协议:
-  #   Cookies: /cookies/
-  #   用户协议: /privacy/
-  #   版权协议: /copyright/
+   协议:
+     Cookies: /cookies/
+     用户协议: /privacy/
+     版权协议: /copyright/
 
   # 底部随机友链
   # Random links at the bottom
@@ -494,7 +494,7 @@ footer:
   privacy: # /privacy/
   # 版权
   # Copyright
-  license: # /license/
+  license:  # /license/
   # 页脚右侧链接，例如：ICP备案号、公安备案号等
   # Footer right link, such as: ICP filing number, public security filing number, etc.
   links:
@@ -502,8 +502,8 @@ footer:
     # In order for the theme to get more support, it is recommended to keep the theme link
     - name: 主题
       url: https://github.com/wleelw/hexo-theme-solitude
-#    - name: 订阅
-#      url: /atom.xml
+    - name: 本站由晞云提供cdn服务
+      url: https://www.lightxi.com/
 
 # -------------------------
 # 扩展页面配置
