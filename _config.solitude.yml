@@ -72,13 +72,13 @@ nav:
      全部分类: /categories/ || sco-checkbox-multiple-blank-fill
      全部标签: /tags/ || sco-price-tag-fill
    友链:
-     友链鱼塘: /moments/ || sco-wifi-fill
+#     友链鱼塘: /moments/ || sco-wifi-fill
      友情链接: /links/ || sco-group-fill
-     宝藏博主: javascript:travelling() || sco-gift-fill
+#     宝藏博主: javascript:travelling() || sco-gift-fill
    我的:
 #     相册集: /gallery/ || sco-image-fill
      装备: /equipment/ || sco-laptop-line
-     工具箱: /tlink/ || sco-tools-fill
+#     工具箱: /tlink/ || sco-tools-fill
      音乐馆: /music/ || sco-disc-fill
    关于:
      关于本站: /about/ || sco-contacts-fill
