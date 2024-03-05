@@ -195,7 +195,7 @@ aside:
   # Sidebar information displayed on the article page
   post:
     noSticky: "about"
-    Sticky: "allInfo"
+    Sticky: "allInfo,newestPost"
   # 在页面中显示的侧边栏信息
   # Sidebar information displayed on the
   page:
