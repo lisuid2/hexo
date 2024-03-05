@@ -76,7 +76,7 @@ nav:
      友情链接: /links/ || sco-group-fill
      宝藏博主: javascript:travelling() || sco-gift-fill
    我的:
-     相册集: /gallery/ || sco-image-fill
+#     相册集: /gallery/ || sco-image-fill
      装备: /equipment/ || sco-laptop-line
      工具箱: /tlink/ || sco-tools-fill
      音乐馆: /music/ || sco-disc-fill
@@ -547,7 +547,7 @@ meting_api: "https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth
 # 音乐馆页
 # music hall
 music:
-  enable: false
+  enable: true
   # 音乐ID：歌单ID / 专辑ID / 歌手ID
   # Music ID: playlist ID / album ID / singer ID
   id: 1994908354

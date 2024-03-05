@@ -1,0 +1,126 @@
+
+authorinfo:
+  leftTags:
+    - "🤖️ 数码科技爱好者"
+    - "🔍 分享与热心帮助"
+    - "🏠 智能家居小能手"
+  rightTags:
+    - "脚踏实地行动派 🏃"
+    - "团队小组发动机 🧱"
+    - "壮汉人狠话不多 💢"
+  image: "https://s3.qjqq.cn/3/64de148060f7b.webp!colorw"
+
+title: 关于本站
+
+contentinfo:  # 顶部个人信息展示
+  sup: 你好，很高兴认识你👋
+  name: 我叫理随  # 名称
+  title: 是一名学生  # 介绍
+  tip: 追求
+  slogan: 生而无畏<br>战至终章
+  mask:
+    - 优秀的产品
+    - 出色的设计
+    - 高效的编程
+    - 人性化的用户体验
+
+skills: # 根据需求添加
+  title: 技能
+  subtitle: 开启创造力
+  tags:
+    - title: HTML
+      icon: https://p.wzsco.top/ef972289c5bf712eefe72a2f143f095b.png/cover
+      color: '#e9572b'
+    - title: Javascript
+      icon: https://p.wzsco.top/93748c292ca517fc5d84c848a028fde6.png/cover
+      color: '#f7cb4f'
+    - title: CSS3
+      icon: https://p.wzsco.top/a5ec1ea015a37fa6e69d649d24971a5f.webp/cover
+      color: '#2965f1'
+    - title: Kotlin
+      icon: https://p.wzsco.top/b5fde63e4da03ba9cc3138c04130dd5d.png/cover
+      color: '#ffffff'
+    - title: WebPack
+      icon: https://p.wzsco.top/6b369fe516eb325383818cb6513ea24b.png/cover
+      color: '#2e3a41'
+    - title: Git
+      icon: https://p.wzsco.top/e9af1b021e98ac24bddf4de3259aea34.png/cover
+      color: '#df5b40'
+    - title: Docker
+      icon: https://p.wzsco.top/a40ed7ba88df173ca610a9e29559eb4e.png/cover
+      color: '#57b6e6'
+    - title: Visual Studio
+      icon: https://p.wzsco.top/658d37bcce45e8a430d05f2de4234dc2.png/cover
+      color: '#ffffff'
+
+careers:
+  title: "生涯"
+  subtitle: "无限进步"
+  items:
+    - school: "软件工程"
+      major: "学习"
+      color: "#357ef5"
+  image: https://p.wzsco.top/426f8c5dee7f46cb032671521cd3545b.png/cover
+
+personalities:
+  tips: "性格"
+  title: "主角"
+  color: "#56a178"
+  type: "ENFJ-T"
+  image: "https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/ESFJ-A.svg"
+  link: "https://www.16personalities.com/"
+  linkText: "16personalities"
+  typeLink: "https://www.16personalities.com/ch/infp-人格"
+  typeName: "执政官"
+  myphoto: https://bu.dusays.com/2023/10/31/6540d809e3dcd.png
+
+motto:
+  title: 座右铭
+  prefix: 生而无畏，
+  content: 战至终章。
+expertise:
+  title: 特长
+  prefix: 辅助
+  specialist: 专家
+  content: 学习能力
+  level: MAX
+
+game1:
+  title: "爱好游戏"
+  img: https://bu.dusays.com/2023/12/28/658d0d9ca8816.png
+  icon: "fas fa-gamepad"
+  subtitle: "APEX LEGENDS"
+  tips_left: C位
+  tips_right: ID Wleelw
+
+
+likes:
+  - type: like-technology
+    bg: https://p.wzsco.top//8624755c54b39a570387376b043c6d98.png/cover
+    tips: 关注偏好
+    title: 数理化
+    subtips: 理工男
+  - type: like-music
+    bg: https://p.wzsco.top//fe3ef8dd6d5b8772e1c0e4f061beca8e.png/cover
+    tips: 音乐偏好
+    title: 民谣、古典、轻音乐
+    subtips: 跟 王卓Sco 一起欣赏更多音乐
+    button: true
+    button_text: 更多推荐
+    button_link: /music/
+
+tj: # 统计
+  url: https://v6-widget.51.la/v6/3FdQzNZVL4fCrSb3/quote.js # 需要到51la官网注册自行获取
+  img: https://p.wzsco.top/a7db22c5063a3d6f42ae2ee26f2436ab.webp/cover # 背景
+
+oneself:    # 按需填写
+  location: '中国，广东省' # 所在位置
+  birthYear: '2007' # 生日
+  university: 'xxxx'    # 毕业学校
+  major: 'xxxxx' # 专业
+  occupation: '学生'  # 职位
+  map:  # 你所在位置的地图
+    light: https://p.wzsco.top/3b9047a67e59dcf85682d3c8e066a106.png/cover   # 白天
+    dark: https://p.wzsco.top/f31ec672f8701d67d696cd3d18af0c79.webp/cover   # 夜晚
+
+

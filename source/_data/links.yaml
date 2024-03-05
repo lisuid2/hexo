@@ -153,6 +153,13 @@ links:
         link: https://www.imydl.com/
         avatar: https://www.imydl.com/wp-content/uploads/avatars/0ffc984d88751e6aa346bb2351b3d253.png
         descr: 一个小小站长的博客
+        tag: 分享
+      - name: 极客蜂巢(GeekHive)
+        link: https://jblog.oscode.top
+        avatar: https://cdn.oscode.top/wp/2023/09/20230903072315127-e1693725895386.png
+        descr: 共创型综合技术博客，在这里你能学习Java、C#等软件开发与测试知识。
+        color: vip
+        tag: 技术
 
 
   - class_name: 推荐 # 分类名称
@@ -181,3 +188,7 @@ links:
         avatar: https://img.hklan.top/cover/%E5%9C%86%E5%A4%B4%E5%83%8F.png
         descr: 生而热忱❤️,终也欢洽
         color: vip
+      - name: 星辰博客
+        link: https://blog.starchen.top
+        avatar: https://blog.starchen.top/favicon.jpg
+        descr: 一个分享资源、技术、工具和教程的博客
