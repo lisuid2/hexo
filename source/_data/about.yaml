@@ -8,7 +8,7 @@ authorinfo:
     - "脚踏实地行动派 🏃"
     - "团队小组发动机 🧱"
     - "壮汉人狠话不多 💢"
-  image: "https://s3.qjqq.cn/3/64de148060f7b.webp!colorw"
+  image: "https://s3.qjqq.cn/3/64de148060f7b.webp!color"
 
 title: 关于本站
 
@@ -60,7 +60,7 @@ careers:
     - school: "软件工程"
       major: "学习"
       color: "#357ef5"
-  image: https://p.wzsco.top/426f8c5dee7f46cb032671521cd3545b.png/cover
+  image: hhttps://bu.dusays.com/2023/10/31/654112c2aaef4.png
 
 personalities:
   tips: "性格"
@@ -96,12 +96,12 @@ game1:
 
 likes:
   - type: like-technology
-    bg: https://p.wzsco.top//8624755c54b39a570387376b043c6d98.png/cover
+    bg: https://s3.qjqq.cn/3/65aa50f79eacd.webp!color
     tips: 关注偏好
-    title: 数理化
+    title: 王者荣耀
     subtips: 理工男
   - type: like-music
-    bg: https://p.wzsco.top//fe3ef8dd6d5b8772e1c0e4f061beca8e.png/cover
+    bg: https://s3.qjqq.cn/3/65aa513bb0b72.webp!color
     tips: 音乐偏好
     title: 民谣、古典、轻音乐
     subtips: 跟 王卓Sco 一起欣赏更多音乐
@@ -111,7 +111,7 @@ likes:
 
 tj: # 统计
   url: https://v6-widget.51.la/v6/3FdQzNZVL4fCrSb3/quote.js # 需要到51la官网注册自行获取
-  img: https://p.wzsco.top/a7db22c5063a3d6f42ae2ee26f2436ab.webp/cover # 背景
+  img: https://bu.dusays.com/2023/03/12/640dc8c72f623.webp # 背景
 
 oneself:    # 按需填写
   location: '中国，广东省' # 所在位置
