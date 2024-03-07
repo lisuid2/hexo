@@ -67,12 +67,6 @@ links:
         tag: 技术
         color: vip
 
-      - name: Pupper
-        link: https://pupper.cn
-        avatar: https://img.pupper.cn/img/202307151348675.png
-        descr: 记录学习、生活中的点点滴滴~
-        color: vip
-
       - name: Ethan.Tzy
         link: https://fe32.top/
         avatar: https://bu.dusays.com/2022/05/02/626f92e193879.jpg
@@ -135,8 +129,8 @@ links:
         avatar: https://s3.qjqq.cn/3/6597fae83c03d.webp!color
         descr: 不必借光而行，你我皆是星辰
         color: vip
-
         tag: 初七云
+        
       - name: 老怀表
         link: https://7t7t.top/
         avatar: https://s3.qjqq.cn/3/6597fa06f3f1a.webp!color
@@ -160,6 +154,13 @@ links:
         descr: 共创型综合技术博客，在这里你能学习Java、C#等软件开发与测试知识。
         color: vip
         tag: 技术
+      - name: 杜老师说
+        link: https://dusays.com/
+        avatar: https://cdn.dusays.com/avatar.png
+        descr: 师者，传道，授业，解惑也！
+        tag: 荐
+        color: vip
+
 
 
   - class_name: 推荐 # 分类名称
@@ -170,7 +171,6 @@ links:
         link: https://blog.wuyuxi.cn/
         avatar: https://cdnjson.com/images/2023/06/04/avatar.png
         descr: 恰沐春风共同游，终只叹，木已舟。
-        tag: 技术
         color: vip
       - name: 星の野 
         link: https://byer.top/
@@ -182,7 +182,6 @@ links:
         avatar: https://img01.anheyu.com/useruploads/222/2023/10/16/652cbfc482491.jpg
         descr: Dare && Do
         color: vip
-        tag: 推荐
       - name: 海阔蓝
         link: https://blog.hklan.top/
         avatar: https://img.hklan.top/cover/%E5%9C%86%E5%A4%B4%E5%83%8F.png
@@ -192,3 +191,13 @@ links:
         link: https://blog.starchen.top
         avatar: https://blog.starchen.top/favicon.jpg
         descr: 一个分享资源、技术、工具和教程的博客
+      - name: Pupper
+        link: https://pupper.cn
+        avatar: https://img.pupper.cn/img/202307151348675.png
+        descr: 记录学习、生活中的点点滴滴~
+        color: vip
+      - name: 八九
+        link: https://bkm.net/
+        avatar: https://wp.sqsq.net/view.php/83b79b23a1dc9f22289fc8983ef02cc3.jpeg
+        descr: 记录在人间苦逼的日子.
+      
