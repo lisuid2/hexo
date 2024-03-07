@@ -110,7 +110,7 @@ likes:
     button_link: /music/
 
 tj: # 统计
-  url:  # 需要到51la官网注册自行获取
+  url: https://v6-widget.51.la/v6/3FdQzNZVL4fCrSb3/quote.js # 需要到51la官网注册自行获取
   img: https://bu.dusays.com/2023/03/12/640dc8c72f623.webp # 背景
 
 oneself:    # 按需填写
