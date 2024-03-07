@@ -819,17 +819,6 @@ extends:
   head: 
     - <link rel="stylesheet" href="/css/custom.css"> #在head中插入
     - <span id="fps"></span> # 帧率检测
-    - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-    - <script>LA.init({id:"3FdQzNZVL4fCrSb3",ck:"3FdQzNZVL4fCrSb3"})</script>
-    - <script>
-      var _hmt = _hmt || [];
-      (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?f17c3dd0c43cecfef2f02ae5e7dc00d7";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-      })();
-      </script>
   body: 
     - <script async src="/js/fps.js"></script> # 帧率检测
 
