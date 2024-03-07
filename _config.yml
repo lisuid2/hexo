@@ -93,7 +93,6 @@ pagination_dir: page
 include:
 exclude:
 ignore: 
-  - "**/themes/solitude/source/js/*"
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
