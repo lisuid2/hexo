@@ -28,30 +28,54 @@ skills: # 根据需求添加
   title: 技能
   subtitle: 开启创造力
   tags:
-    - title: HTML
-      icon: https://p.wzsco.top/ef972289c5bf712eefe72a2f143f095b.png/cover
-      color: '#e9572b'
-    - title: Javascript
-      icon: https://p.wzsco.top/93748c292ca517fc5d84c848a028fde6.png/cover
-      color: '#f7cb4f'
-    - title: CSS3
-      icon: https://p.wzsco.top/a5ec1ea015a37fa6e69d649d24971a5f.webp/cover
-      color: '#2965f1'
-    - title: Kotlin
-      icon: https://p.wzsco.top/b5fde63e4da03ba9cc3138c04130dd5d.png/cover
-      color: '#ffffff'
-    - title: WebPack
-      icon: https://p.wzsco.top/6b369fe516eb325383818cb6513ea24b.png/cover
-      color: '#2e3a41'
-    - title: Git
-      icon: https://p.wzsco.top/e9af1b021e98ac24bddf4de3259aea34.png/cover
-      color: '#df5b40'
+    - title: Java
+      color: "#fff"
+      icon: https://bu.dusays.com/2023/04/09/643293b1184e9.jpg
     - title: Docker
-      icon: https://p.wzsco.top/a40ed7ba88df173ca610a9e29559eb4e.png/cover
-      color: '#57b6e6'
-    - title: Visual Studio
-      icon: https://p.wzsco.top/658d37bcce45e8a430d05f2de4234dc2.png/cover
-      color: '#ffffff'
+      color: "#57b6e6"
+      icon: https://bu.dusays.com/2023/04/09/643293b0f0abe.png
+    - title: Photoshop
+      color: "#4082c3"
+      icon: https://bu.dusays.com/2022/12/15/639aa3a5c240e.png
+    - title: Node
+      color: "#333"
+      icon: https://npm.elemecdn.com/anzhiyu-blog@2.1.1/img/svg/node-logo.svg
+    - title: Webpack
+      color: "#2e3a41"
+      icon: https://bu.dusays.com/2023/04/09/643293b68026c.png
+    - title: Pinia
+      color: "#fff"
+      icon: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/pinia-logo.svg
+    - title: Python
+      color: "#fff"
+      icon: https://bu.dusays.com/2023/04/09/643293b1230f7.png
+    - title: Vite
+      color: "#937df7"
+      icon: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/vite-logo.svg
+    - title: Flutter
+      color: "#4499e4"
+      icon: https://bu.dusays.com/2023/04/09/643293b1055c2.png
+    - title: Vue
+      color: "#b8f0ae"
+      icon: https://bu.dusays.com/2023/04/09/643293b6788bd.png
+    - title: React
+      color: "#222"
+      icon: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K
+    - title: CSS3
+      color: "#2c51db"
+      icon: https://bu.dusays.com/2022/12/15/639aa3a5c251e.png
+    - title: JS
+      color: "#f7cb4f"
+      icon: https://bu.dusays.com/2023/04/09/643293b121f02.png
+    - title: HTML
+      color: "#e9572b"
+      icon: https://bu.dusays.com/2022/12/15/639aa3a5c241c.png
+    - title: Git
+      color: "#df5b40"
+      icon: https://bu.dusays.com/2023/04/09/643293b10ccdd.webp
+    - title: Apifox
+      color: "#e65164"
+      icon: https://bu.dusays.com/2022/11/19/6378d6458c6b6.png
 
 careers:
   title: "生涯"
@@ -60,7 +84,7 @@ careers:
     - school: "软件工程"
       major: "学习"
       color: "#357ef5"
-  image: hhttps://bu.dusays.com/2023/10/31/654112c2aaef4.png
+  image: https://bu.dusays.com/2023/04/21/644287166329b.png  
 
 personalities:
   tips: "性格"
