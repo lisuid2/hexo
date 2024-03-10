@@ -152,3 +152,33 @@ swpp:
    # warn_level: 1
    # 检查版本的 URL，不能以 '/' 结尾
    # npm_url: 'https://registry.npmmirror.com'
+
+   # markdown-it
+markdown:
+  preset: 'default'
+  render:
+    html: true
+    xhtmlOut: false
+    langPrefix: 'language-'
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  enable_rules:
+  disable_rules:
+  plugins:
+    - '@renbaoshuo/markdown-it-katex'
+  anchors:
+    level: 1
+    collisionSuffix: ''
+    permalink: true
+    permalinkClass: 'headerlink'
+    permalinkSide: 'left'
+    permalinkSymbol: ''
+    case: 0
+    separator: '-'
+  images:
+    lazyload: true
+    prepend_root: false
+    post_asset: false
+  inline: false
