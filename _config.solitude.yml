@@ -819,6 +819,7 @@ extends:
   head: 
     - <link rel="stylesheet" href="/css/custom.css"> #在head中插入
     - <span id="fps"></span> # 帧率检测
+    - <meta name="msvalidate.01" content="FFCD9DD2BAD90608676B348118E43815" /> #必应搜索
   body: 
     - <script async src="/js/fps.js"></script> # 帧率检测
 

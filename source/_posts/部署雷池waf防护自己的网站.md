@@ -160,8 +160,6 @@ STREAM=1 bash -c "$(curl -fsSLk https://waf-ce.chaitin.cn/release/latest/upgrade
 # 离线镜像
 适用于 docker hub 拉取镜像失败的场景，手动更新镜像。
 >  cd /path/to/safeline
-
-> # cd /path/to/safeline
  
 > mv compose.yaml compose.yaml.old
 > wget "https://waf-ce.chaitin.cn/release/latest/compose.yaml" --no-check-certificate -O compose.yaml
