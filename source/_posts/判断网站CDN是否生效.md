@@ -5,8 +5,8 @@ tags:
   - 教程
   - CDN
 categories:
-  - - 教程
-  - - CDN
+  - [教程]
+  - [CDN]
 cover: 'https://s3.qjqq.cn/3/65aa841db3d54.webp!color'
 abbrlink: 870b86a3
 date: 2024-01-19 20:12:13
