@@ -1,8 +1,8 @@
 ---
 title: 美区id注册教程(小白教程)
 tags:
-  - Apple
-  - 苹果
+  - - Apple
+  - - 苹果
 categories: 教程
 cover: 'https://s3.qjqq.cn/3/64eb600a0b5bc.webp!color'
 recommend: true

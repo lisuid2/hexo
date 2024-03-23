@@ -182,3 +182,14 @@ markdown:
     prepend_root: false
     post_asset: false
   inline: false
+
+# sitemap hexo-generator-sitemap
+sitemap:
+path:
+  - sitemap.xml
+  - sitemap.txt
+template:
+template_txt:
+rel: false
+tags: true
+categories: true

@@ -1,11 +1,11 @@
 ---
 title: Butterfly的魔改教程：个性定位信息
 tags:
-  - 教程
-  - Butterfly
+  - - 教程
+  - - Butterfly
 categories:
-  - [教程]
-  - [Butterfly]
+  - - 教程
+    - Butterfly
 cover: 'https://s3.qjqq.cn/3/65aa513bb0b72.webp!color'
 abbrlink: af19e490
 date: 2023-11-06 16:50:07
