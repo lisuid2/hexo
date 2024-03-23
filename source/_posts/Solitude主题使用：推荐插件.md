@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Solitude主题使用：推荐插件
-date: 2024-03-23 10:03:15
 tags:
   - - Hexo
 categories:
-    - Solitude
+  - Solitude
+abbrlink: 348c00e5
+date: 2024-03-23 10:03:15
 ---
 ```本篇文章装载于Solitude作者```
 
