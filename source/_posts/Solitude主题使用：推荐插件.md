@@ -8,17 +8,17 @@ categories:
     - Solitude
 ---
 ```本篇文章装载于Solitude作者```
-{% note info flat %}
-展示 Solitude 主题第三方插件的使用方式，不保证所有插件都能正常使用，有问题请评论区留言。
-{% endnote %}
+
+```展示 Solitude 主题第三方插件的使用方式，不保证所有插件都能正常使用，有问题请评论区留言。```
+
 
 ## abbrlink (短链接)
 
-{% note info flat %}
+
 百度蜘蛛抓取网页的规则:
 对于蜘蛛说网页权重越高、信用度越高抓取越频繁，例如网站的首页和内页。蜘蛛先抓取网站的首页，因为首页权重更高，并且大部分的链接都是指向首页。然后通过首页抓取网站的内页，并不是所有内页蜘蛛都会去抓取。
 搜索引擎认为对于一般的中小型站点，3层足够承受所有的内容了，所以蜘蛛经常抓取的内容是前三层，而超过三层的内容蜘蛛认为那些内容并不重要，所以不经常爬取。出于这个原因所以permalink后面跟着的最好不要超过2个斜杠。
-{% endnote %}
+
 
 1. 安装插件
     ```bash
@@ -47,18 +47,17 @@ categories:
     ```bash
     hexo clean && hexo g && hexo server
     ```
-   {% note warning flat %}
+   
    注意：如果有的文章已经生成了`abbrlink`，需要把文章的`front-matter`中删掉`abbrlink`字段，然后重新生成。
-   {% endnote %}
+  
 
 ## nofollow (外链添加 nofollow)
 
-{% note info flat %}
+
 
 为网站使用到的所有外链添加rel="noopener external nofollow noreferrer", 可以有效地加强网站 SEO 和防止权重流失。
 更多关于 nofollow 的介绍可以参考 [nofollow - SEO百科](https://baike.baidu.com/item/Nofollow/2410595?fr=ge_ala)
 
-{% endnote %}
 
 1. 安装插件
     ```bash
@@ -81,11 +80,10 @@ categories:
 
 ## sitemap (站点地图)
 
-{% note info flat %}
 
-生成站点地图，方便搜索引擎抓取。
+```生成站点地图，方便搜索引擎抓取。```
 
-{% endnote %}
+
 
 1. 安装插件
     ```bash
