@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Solitude主题使用：数学公式
-date: 2024-03-23 17:29:06
 categories:
   - - Hexo
 tags:
   - - Hexo
 katex: true
+abbrlink: 83fe067a
+date: 2024-03-23 17:29:06
 ---
 
 > 本文介绍了如何在Solitude主题下使用数学公式。
