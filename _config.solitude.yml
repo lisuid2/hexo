@@ -678,7 +678,7 @@ search:
 # 文章摘要AI
 # post abstract AI
 post_ai:
-  enable: false
+  enable: true
   # 右侧显示的模型名称
   # Model name displayed on the right
   modelName: GPT 4
