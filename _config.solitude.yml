@@ -142,7 +142,7 @@ hometop:
     url: https://solitude-docs.efu.me/
     # 显示背景图片
     # Display background image
-    img: /img/default.png
+    img: https://s3.qjqq.cn/3/6533a80c4f136.webp!color
     # 阴影颜色
     # Shadow color
     color: "none"
