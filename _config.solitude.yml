@@ -26,10 +26,10 @@ site:
     custom: lisui
   # 网页icon
   # Web icon
-  siteIcon: /img/pwa/favicon.ico
+  siteIcon: https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg
   # 页脚的Logo、加载动画默认的logo
   # Logo in the footer, default logo for loading animation
-  icon: /img/avatar.png
+  icon: https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg
 
 # 导航栏
 # NavBar
@@ -781,11 +781,11 @@ pwa:
   enable: true
   manifest: /manifest.json # manifest.json 文件路径
   theme_color: "#006a73" # 主题颜色
-  mask_icon: https://cdn.cbd.int/solitude-source/img/pwa/180.png # 遮罩图标
-  apple_touch_icon: https://cdn.cbd.int/solitude-source/img/pwa/180.png # 苹果触摸图标
-  bookmark_icon: https://cdn.cbd.int/solitude-source/img/pwa/180.png # 书签图标
-  favicon_32_32: https://cdn.cbd.int/solitude-source/img/pwa/32.png # 32x32图标
-  favicon_16_16: https://cdn.cbd.int/solitude-source/img/pwa/16.png # 16x16图标
+  mask_icon: https://fastly.jsdelivr.net/npm/solitude-source@1.0.0/img/pwa/180.png # 遮罩图标
+  apple_touch_icon: https://fastly.jsdelivr.net/npm/solitude-source@1.0.0/img/pwa/180.png # 苹果触摸图标
+  bookmark_icon: https://fastly.jsdelivr.net/npm/solitude-source@1.0.0/img/pwa/180.png # 书签图标
+  favicon_32_32: https://fastly.jsdelivr.net/npm/solitude-source@1.0.0/img/pwa/32.png # 32x32图标
+  favicon_16_16: https://fastly.jsdelivr.net/npm/solitude-source@1.0.0/img/pwa/16.png # 16x16图标
 
 
 # 谷歌广告 (Google Adsense)
