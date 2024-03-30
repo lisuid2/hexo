@@ -781,11 +781,12 @@ pwa:
   enable: true
   manifest: /manifest.json # manifest.json 文件路径
   theme_color: "#006a73" # 主题颜色
-  mask_icon: /img/logo.png # 遮罩图标
-  apple_touch_icon: /img/logo.png # 苹果触摸图标
-  bookmark_icon: /img/logo.png # 书签图标
-  favicon_32_32: /img/logo.png # 32x32图标
-  favicon_16_16: /img/logo.png # 16x16图标
+  mask_icon: https://cdn.cbd.int/solitude-source/img/pwa/180.png # 遮罩图标
+  apple_touch_icon: https://cdn.cbd.int/solitude-source/img/pwa/180.png # 苹果触摸图标
+  bookmark_icon: https://cdn.cbd.int/solitude-source/img/pwa/180.png # 书签图标
+  favicon_32_32: https://cdn.cbd.int/solitude-source/img/pwa/32.png # 32x32图标
+  favicon_16_16: https://cdn.cbd.int/solitude-source/img/pwa/16.png # 16x16图标
+
 
 # 谷歌广告 (Google Adsense)
 google_adsense:
