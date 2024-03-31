@@ -200,4 +200,9 @@ links:
         link: https://bkm.net/
         avatar: https://wp.sqsq.net/view.php/83b79b23a1dc9f22289fc8983ef02cc3.jpeg
         descr: 记录在人间苦逼的日子.
+      - name: 夜法之书的blog
+        link: https://blog.17lai.site
+        avatar: https://blog.17lai.site/favicon.webp
+        descr: 嵌入式，Linux Kernel&Driver, PT, Docker, Nas等等
+        tag: 推荐
       
