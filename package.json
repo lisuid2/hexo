@@ -42,6 +42,6 @@
     "hexo-theme-landscape": "^1.0.0",
     "hexo-theme-solitude": "^1.5.1",
     "hexo-wordcount": "^6.0.1",
-    "swpp-backends": "^2.3.8"
+    "swpp-backends": "^2.3.11"
   }
 }
