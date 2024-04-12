@@ -205,4 +205,11 @@ links:
         avatar: https://blog.17lai.site/favicon.webp
         descr: 嵌入式，Linux Kernel&Driver, PT, Docker, Nas等等
         tag: 推荐
-      
+      - name: 清羽飞扬
+        link: https://blog.qyliu.top/
+        avatar: https://blog.qyliu.top/info/avatar.ico
+        descr: 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜
+      - name: June’s Blog
+        link: https://blog.june-pj.cn/
+        avatar: https://imgse.com/i/pFjVsHI
+        descr: 遇事不决，可问春风
