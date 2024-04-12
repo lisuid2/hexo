@@ -26,10 +26,10 @@ site:
     custom: lisui
   # 网页icon
   # Web icon
-  siteIcon: https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg
+  siteIcon: /img/pwa/favicon.ico
   # 页脚的Logo、加载动画默认的logo
   # Logo in the footer, default logo for loading animation
-  icon: https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg
+  icon: /img/pwa/favicon.ico
 
 # 导航栏
 # NavBar
@@ -38,7 +38,7 @@ nav:
   # logo group
   group:
   # 项目: # 分类名称
-  #   Solitude: https://github.com/valor-x/hexo-theme-solitude || /img/logo.png # 子菜单名称(submenu name): 链接地址(address) || 图标(icon)
+  #   Solitude: https://github.com/valor-x/hexo-theme-solitude || /img/pwa/favicon.ico # 子菜单名称(submenu name): 链接地址(address) || 图标(icon)
 
   # 中心菜单
   # center menu
@@ -147,6 +147,12 @@ hometop:
     # Shadow color
     color: "none"
 
+# carousel
+# 顶部推荐轮播图
+# 使用方法：在文章的front matter中添加“recommend: true”
+# tip：建议开了这个就不要开hometop，其功能类似
+carousel: false
+
 # --------------------------------------
 # Aside Settings
 # 侧边栏配置
@@ -222,6 +228,7 @@ aside:
       Github: https://github.com/efuo || st-github-line # 名称：链接 || 图标 / Name: link || icon
       Bilibili: https://space.bilibili.com/1329819902 || st-bilibili-line
 
+
   # 二维码
   # Official account QR code
   flip:
@@ -260,15 +267,11 @@ aside:
     # 显示标签数量，当高于标签总数时，显示全部标签按钮
     # Display the number of tags, when it is higher than the total number of tags, display all tags button
     limit: 20
-    # 高亮显示
-    # Highlight
-    highlight: true
     # 高亮显示标签列表
     # Highlighted tag list
-    list:
-     - '知识'
-     - '教程'
-
+    highlight_list:
+      - '知识'
+      - '教程'
 
   # 侧边栏归档
   # aside archive
@@ -332,7 +335,7 @@ post:
     # -  # 默认图片 / default cover
     # 文章发布默认地址
     # default post locate
-    locate: 东莞
+    locate: 日本
     # 文章默认版权
     # default post copyright
     copyright:
@@ -467,7 +470,7 @@ footer:
 errorpage:
   # 图片
   # image
-  img: https://7.isyangs.cn/34/65f2e65eae32a-34.png
+  img: /img/404.webp
   # 文字
   # text
   text: =awa= 页面走丢了
@@ -518,8 +521,7 @@ music:
 # 音乐胶囊
 # capsule music
 capsule:
-  enable:
-    false
+  enable: false
   # 歌单id / playlist id
   id: 8407304077
   # 播放列表的服务商。netease：网易云 / tencent：腾讯 / kugou：酷狗 / xiami：小米 / baidu：百度
@@ -538,7 +540,7 @@ moments:
   # example: https://example.com/
   api: # https://example.com/
   # 加载失败显示图片 / Loading failed display image
-  error_img: /img/logo.png
+  error_img: /img/pwa/favicon_64.ico
   # 排序规则：created：按创建时间排序 / updated：按更新时间排序
   # Sort rule: created: Sort by creation time / updated: Sort by update time
   sort_rule: created
@@ -579,6 +581,14 @@ keyboard:
   # - name: 打开友情链接
   #   key: L
   #   url: "/links/"
+
+# 复制
+# Copy
+copy:
+  enable: true
+  copyright: # Turn on Link copyright information after copying.（开启后将在默认增加版权信息）
+    enable: true
+    limit: 50 # word count. （字数）
 
 # 懒加载
 # lazyload
@@ -627,7 +637,7 @@ fancybox: true
 # mediumZoom
 mediumZoom: false
 
-# mermaid
+# mermaid tags plugin
 # https://mermaid.js.org/
 mermaid: false
 
@@ -666,7 +676,7 @@ search:
   # 推荐标签
   # Recommended tags
   tags:
-    - Solitude
+  - Solitude
     - Hexo
   algolia_search:
       enable: true
@@ -675,6 +685,7 @@ search:
   local:
     preload: false
     CDN:
+
 # 文章摘要AI
 # post abstract AI
 post_ai:
@@ -688,7 +699,7 @@ post_ai:
   key: 90aec95d869ffd1867a8
   # 自介
   # talk
-  talk:  我是理随 开发的摘要生成助理EfuGPT，EfuGPT在静态部署时进行摘要的撰写，并且在访客访问时通过EfuCorrection转译后的文本摘要实现工具。我在这里只负责已经生成的摘要显示，你无法与我直接沟通，但我可以回答一些预设的问题。
+  talk: # 我是 lisui 开发的摘要生成助理EfuGPT，lisui在静态部署时进行摘要的撰写，并且在访客访问时通过EfuCorrection转译后的文本摘要实现工具。我在这里只负责已经生成的摘要显示，你无法与我直接沟通，但我可以回答一些预设的问题。
   # 随机文章按钮
   # Random post button
   randomPost: false
@@ -711,19 +722,14 @@ katex:
 # comment
 comment:
   enable: true
-  type: twikoo # waline, twikoo
+  type: twikoo # waline, twikoo, valine, artalk
   commentBarrage: true # 热评开关 / Hot comment switch
-  newComment: true # 最新评论开关 / Latest comment switch
-  # 匿名评论前部分随机信息 / Anonymous comment front random information
-  randomInfoStart:
-    - "聪敏的"
-    - "可爱的"
-    - "美丽的"
-  # 匿名评论后部分随机信息 / Anonymous comment after random information
-  randomInfoEnd:
-    - "白菜"
-    - "小可爱"
-    - "小仙女"
+  lazyload: true # 懒加载
+  count: true # 评论数展示
+  avatar: https://cravatar.cn # Gravatar link
+  newest_comment:
+    enable: true
+    storage: .5 # 缓存时间 1: 1天 / .5 : 半天
   # twikoo 配置信息
   # twikoo settings
   twikoo: # https://twikoo.js.org/
@@ -734,8 +740,26 @@ comment:
   # waline settings
   waline: # https://waline.js.org/
     envId:  # url: https://waline.wzsco.top
-    pageview: true # 是否开启页面访问量统计 / Whether to enable page access statistics
+    pageview: false # 是否开启页面访问量统计 / Whether to enable page access statistics
     option: # waline配置项 / waline configuration item
+  # valine 配置信息
+  # valine settings
+  valine:
+    appId: # leancloud application app id
+    appKey: # leancloud application app key
+    serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+    avatar:
+    visitor: false
+    option: # options list
+  # artalk 配置信息
+  # artalk settings
+  artalk:
+    server: # server url / 后端地址
+    site: # site name / 站点名
+    option: # options
+
+# 中控台扩展 ： 最新评论 + 标签 + 文章
+console_plus: true
 
 # 站点验证
 # Site verification
@@ -760,8 +784,8 @@ css_prefix: false
 font:
   font-size: 16px
   code-font-size: 16px
-  font-family: '"PingFang SC","Hiragino Sans GB","Microsoft YaHei"'
-  code-font-family: '"monospace", "monospace"'
+  font-family: 'PingFang SC,Hiragino Sans GB,Microsoft YaHei'
+  code-font-family: 'monospace, monospace'
 
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 # Insert code before </head> and before </body>
@@ -773,7 +797,6 @@ extends:
     - <span id="fps"></span> # 帧率检测
   body: 
     - <script async src="/js/fps.js"></script> # 帧率检测
-
 # PWA
 # https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps
 # docs: https://solitude-docs.efu.me/configuration/extra#pwa
@@ -781,12 +804,11 @@ pwa:
   enable: true
   manifest: /manifest.json # manifest.json 文件路径
   theme_color: "#006a73" # 主题颜色
-  mask_icon: https://fastly.jsdelivr.net/npm/solitude-source@1.0.0/img/pwa/180.png # 遮罩图标
-  apple_touch_icon: https://fastly.jsdelivr.net/npm/solitude-source@1.0.0/img/pwa/180.png # 苹果触摸图标
-  bookmark_icon: https://fastly.jsdelivr.net/npm/solitude-source@1.0.0/img/pwa/180.png # 书签图标
-  favicon_32_32: https://fastly.jsdelivr.net/npm/solitude-source@1.0.0/img/pwa/32.png # 32x32图标
-  favicon_16_16: https://fastly.jsdelivr.net/npm/solitude-source@1.0.0/img/pwa/16.png # 16x16图标
-
+  mask_icon: /img/pwa/favicon.ico # 遮罩图标
+  apple_touch_icon: /img/pwa/favicon.ico # 苹果触摸图标
+  bookmark_icon: /img/pwa/favicon.ico # 书签图标
+  favicon_32_32: /img/pwa/favicon_32.ico # 32x32图标
+  favicon_16_16: /img/pwa/favicon_16.ico # 16x16图标
 
 # 谷歌广告 (Google Adsense)
 google_adsense:
@@ -802,6 +824,40 @@ google_adsense:
   # 只有关闭自动广告时才需要填写 slot id，可以在谷歌广告后台 按广告单元中创建广告位后获取
   # Only when auto ads are turned off, you need to fill in the slot id, which can be obtained after creating an ad space in the Google Adsense background according to the ad unit
   slot: # 4236388782
+
+# 自定义右键菜单 (Custom Right Menu)
+right_menu:
+  enable: false
+  commentBarrage: false # 是否显示热评开关 / Whether to display the hot comment switch.
+  # 翻译功能（仅支持简繁）
+  # Translation function (Simplified and Traditional Chinese only)
+  translate: 
+    enable: false
+    defaultEncoding: 2 # 1: 默认繁体 2: 默认简体
+    translateDelay: 0 # 首次加载翻译迟疑时间
+  # 自定义菜单项列表
+  # Customize the list of menu items.
+  custom_list:
+  #  - name: 随机短文
+  #    click: toRandomPost()
+  #    id: menu-randomPost
+  #    class:
+  #    icon: st-signal-tower-fill
+  #  - name: 全部分类
+  #    click: pjax.loadUrl('/categories/') # 外链用 window.open，pjax 无法请求跨域内容
+  #    id:
+  #    class:
+  #    icon: st-checkbox-multiple-blank-fill
+  #  - name: 全部标签
+  #    click: pjax.loadUrl('/tags/')
+  #    id:
+  #    class:
+  #    icon: st-price-tag-fill
+  #  - name: 赞助主题
+  #    click: window.open('https://afdian.net/a/efu0u0/', '_blank')
+  #    id:
+  #    class:
+  #    icon: st-afdian-line
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -839,7 +895,6 @@ CDN:
     # aplayer_js:
     # meting_js:
     # pace_js:
-    # lunr_js:
     # swiper_css:
     # swiper_js:
     # busuanzi_js:
