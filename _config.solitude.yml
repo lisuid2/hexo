@@ -794,9 +794,7 @@ font:
 extends:
   head: 
     - <link rel="stylesheet" href="/css/custom.css"> #在head中插入
-    - <span id="fps"></span> # 帧率检测
   body: 
-    - <script async src="/js/fps.js"></script> # 帧率检测
 # PWA
 # https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps
 # docs: https://solitude-docs.efu.me/configuration/extra#pwa
