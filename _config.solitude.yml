@@ -26,7 +26,7 @@ site:
     custom: lisui
   # 网页icon
   # Web icon
-   siteIcon: https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg
+  siteIcon: https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg
   # 页脚的Logo、加载动画默认的logo
   # Logo in the footer, default logo for loading animation
   icon: https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg
