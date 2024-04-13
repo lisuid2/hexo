@@ -793,7 +793,7 @@ font:
 # Insert additional code such as: statistics, advertising, etc.
 extends:
   head: 
-    - <link rel="stylesheet" href="/css/custom.css"> #在head中插入
+  
   body: 
 # PWA
 # https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps
