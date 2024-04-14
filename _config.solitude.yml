@@ -825,8 +825,8 @@ google_adsense:
 
 # 自定义右键菜单 (Custom Right Menu)
 right_menu:
-  enable: false
-  commentBarrage: false # 是否显示热评开关 / Whether to display the hot comment switch.
+  enable: true
+  commentBarrage: true # 是否显示热评开关 / Whether to display the hot comment switch.
   # 翻译功能（仅支持简繁）
   # Translation function (Simplified and Traditional Chinese only)
   translate: 
