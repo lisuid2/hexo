@@ -85,10 +85,10 @@ hometop:
     # Large text displayed in the upper left corner
     # tip：可使用html标签
     # tip: html tags be used
-    title: 生而无畏<br>战至终章
+    title: 不够优秀<br>将被淘汰❤
     # 左上角显示小文字
     # Small text displayed in the upper left corner
-    url: netlify.lisui.top
+    url: lisui.top
     # 轮播icon
     # Carousel icon
     # tip: 76x76 size
