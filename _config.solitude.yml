@@ -613,7 +613,7 @@ highlight:
 lightbox: true
 # fancybox
 # https://fancyapps.com/fancybox/
-fancybox: false
+fancybox: true
 # mediumZoom
 mediumZoom: false
 
