@@ -3,10 +3,10 @@
 # Author: Valor Team
 # Github: https://github.com/valor-x/hexo-theme-solitude
 #
-# 配置指南: https://solitude-docs.efu.me/
+# 配置指南: https://docs.efu.me/
 # 你可以从指南中获得更详细的说明
 #
-# Guide: https://solitude-docs.efu.me/
+# Guide: https://docs.efu.me/
 # You can get more detailed help from the guide
 #
 # 赞助：https://afdian.net/a/efu0u0
@@ -58,6 +58,7 @@ nav:
      音乐馆: /music/ || st-disc-fill
    关于:
      关于本站: /about/ || st-contacts-fill
+
 
   # 右侧按钮
   # Button on the right
@@ -136,13 +137,13 @@ hometop:
     sup: 理随
     # 左下角大字
     # Large text in the lower left corner
-    title: 生而无畏，战至终章
+    title: Solitude 主题文档
     # 点击跳转链接
     # Click the jump link
-    url: https://solitude-docs.efu.me/
+    url: https://docs.efu.me/
     # 显示背景图片
     # Display background image
-    img: https://s3.qjqq.cn/3/6533a80c4f136.webp!color
+    img: /img/default.png
     # 阴影颜色
     # Shadow color
     color: "none"
@@ -179,9 +180,11 @@ aside:
   page:
     noSticky: "about"
     Sticky: "newestPost,allInfo"
+  position: 1 # left(0): 左侧 / right(1): 右侧
   # 侧边栏个人信息卡片
   # Sidebar personal information
   card:
+    style: 0 # 0: Heo样式 ：1: 设计样式
     # 头像信息
     # Avatar information
     author:
@@ -227,7 +230,6 @@ aside:
     information:
       Github: https://github.com/efuo || st-github-line # 名称：链接 || 图标 / Name: link || icon
       Bilibili: https://space.bilibili.com/1329819902 || st-bilibili-line
-
 
   # 二维码
   # Official account QR code
@@ -276,7 +278,7 @@ aside:
   # 侧边栏归档
   # aside archive
   archive:
-    enable: true
+    enable: false
     # 显示类型
     type: "month" # month: 按月 / year: 按年 : month: by month / year: by year
 
@@ -340,6 +342,9 @@ post:
     # default post copyright
     copyright:
       enable: true
+      author:
+        url: /about/ # 点击头像跳转地址
+        img: # 显示头像，不填写默认显示site_icon
       license: CC BY-NC-SA 4.0
       licenurl: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
   # 顶部文章简介
@@ -349,8 +354,8 @@ post:
     updated: true # 更新日期 / Update date
     locate: true # 位置 / Location
     wordcount: true # 字数 / Number of words
-    readtime: true # 访问 / uv
-    pv: true # 浏览量 / pv
+    readtime: false # 访问 / uv
+    pv: false # 浏览量 / pv
     comment: true # 评论数 / Comment count
   # 打赏
   # reward
@@ -420,6 +425,7 @@ footer:
   # 底部上方一排图标
   # Bottom row of icons
   information:
+    author: true # 是否显示 site_icon / enable site_icon in footer
     left: # 左侧显示图标
       Github: https://github.com/efuo || st-github-line # 名称：链接 || 图标 / Name: link || icon
       Mail: mailto:o@efu.me || st-mail-line
@@ -464,7 +470,6 @@ footer:
       url: https://github.com/valor-x/hexo-theme-solitude
     - name: 本站由晞云提供cdn服务
       url: https://www.lightxi.com/
-
 
 # 404 页面(404 page)
 errorpage:
@@ -530,31 +535,6 @@ capsule:
   # 播放列表的类型。song：单曲 / playlist：歌单 / album：专辑 / artist：歌手
   # Type of playlist. song: Single / playlist: Playlist / album: Album / artist: Singer
   type: playlist
-
-# 友链鱼塘
-# Links fish pond
-moments:
-  # enable
-  enable: false
-  # API 地址
-  # example: https://example.com/
-  api: # https://example.com/
-  # 加载失败显示图片 / Loading failed display image
-  error_img: /img/pwa/favicon_64.ico
-  # 排序规则：created：按创建时间排序 / updated：按更新时间排序
-  # Sort rule: created: Sort by creation time / updated: Sort by update time
-  sort_rule: created
-  # 缓存过期时间（天），默认为1天 / Cache expiration time (days), default is 1 day
-  expire_days: 1
-  # 页面初始化加载数量，默认为10条 / Page initialization loading quantity, default is 10
-  page_init_number: 10
-  # 页面翻页加载数量，默认为5条 / Page turning loading quantity, default is 5
-  page_turning_number: 5
-  # 鱼塘随机文章 / Fish pond random article
-  angle: false
-  appjs: https://cdn.cbd.int/st-source@1.0.3/js/fcircle.min.js
-  bundlejs: https://cdn.cbd.int/st-source/js/moment/bundle.min.js
-  randompostjs: https://cdn.cbd.int/st-source/js/moment/random_post.min.js
 
 # 快捷菜单你
 # quick menu
@@ -633,7 +613,7 @@ highlight:
 lightbox: true
 # fancybox
 # https://fancyapps.com/fancybox/
-fancybox: true
+fancybox: false
 # mediumZoom
 mediumZoom: false
 
@@ -659,7 +639,7 @@ OpenGraph:
 # word count
 # warning：开启前需要安装字数统计插件
 # warning: You need to install the word count plugin before turning it on
-wordcount: false
+wordcount: true
 
 # 访问统计
 # access statistics
@@ -692,17 +672,17 @@ post_ai:
   enable: true
   # 右侧显示的模型名称
   # Model name displayed on the right
-  modelName: GPT 4
+  modelName: GPT 4 
   # key
   # 具体获取方法见文档
   # Specific acquisition method, see the document
   key: 90aec95d869ffd1867a8
   # 自介
   # talk
-  talk: # 我是 lisui 开发的摘要生成助理EfuGPT，lisui在静态部署时进行摘要的撰写，并且在访客访问时通过EfuCorrection转译后的文本摘要实现工具。我在这里只负责已经生成的摘要显示，你无法与我直接沟通，但我可以回答一些预设的问题。
+  talk: # 我是 Efu 开发的摘要生成助理EfuGPT，EfuGPT在静态部署时进行摘要的撰写，并且在访客访问时通过EfuCorrection转译后的文本摘要实现工具。我在这里只负责已经生成的摘要显示，你无法与我直接沟通，但我可以回答一些预设的问题。
   # 随机文章按钮
   # Random post button
-  randomPost: false
+  randomPost: true
   # 举报链接，不填不显示
   # Report link, do not fill in and do not display
   report: https://efu.me/
@@ -712,7 +692,7 @@ post_ai:
 
 # latex 公式支持
 # latex formula support
-# docs: https://solitude-docs.efu.me/configuration/extra#数学公式
+# docs: https://docs.efu.me/configuration/extra#数学公式
 katex:
   enable: false
   per_page: false # 是否在每页都加载 / Whether to load on each page
@@ -720,43 +700,51 @@ katex:
 
 # 评论
 # comment
+# getting start: http://docs.efu.me/comments/comment
 comment:
-  enable: true
-  type: twikoo # waline, twikoo, valine, artalk
+  use: twikoo # waline, twikoo, valine, artalk
   commentBarrage: true # 热评开关 / Hot comment switch
   lazyload: true # 懒加载
   count: true # 评论数展示
+  pv: false # 是否使用評論統計頁面訪問
   avatar: https://cravatar.cn # Gravatar link
   newest_comment:
-    enable: true
-    storage: .5 # 缓存时间 1: 1天 / .5 : 半天
-  # twikoo 配置信息
-  # twikoo settings
-  twikoo: # https://twikoo.js.org/
-    envId: https://twikoo.lisui.top/.netlify/functions/twikoo
-    lang: "zh-CN" # 语言
-    accessToken: 92a1f07d6284545bc1d121919d96165 # accessToken
-  # waline 配置信息
-  # waline settings
-  waline: # https://waline.js.org/
-    envId:  # url: https://waline.wzsco.top
-    pageview: false # 是否开启页面访问量统计 / Whether to enable page access statistics
-    option: # waline配置项 / waline configuration item
-  # valine 配置信息
-  # valine settings
-  valine:
-    appId: # leancloud application app id
-    appKey: # leancloud application app key
-    serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-    avatar:
-    visitor: false
-    option: # options list
-  # artalk 配置信息
-  # artalk settings
-  artalk:
-    server: # server url / 后端地址
-    site: # site name / 站点名
-    option: # options
+    enable: false
+    storage: .5 # 缓存时间 1: 1天 / .5 : 半天 / Cache time 1: 1 day .5 : half a day
+
+# twikoo 配置信息
+# twikoo settings
+twikoo: # https://twikoo.js.org/
+  envId: https://twikoo.lisui.top/.netlify/functions/twikoo
+  region: # 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+  style: true # Use custom styles when turned on / 开启后使用自定义样式
+  accessToken: 92a1f07d6284545bc1d121919d96165 # AccessToken
+  option: # twikoo option
+
+# waline 配置信息
+# waline settings
+waline: # https://waline.js.org/
+  envId:  # url: https://waline.wzsco.top
+  pageview: false # 是否开启页面访问量统计 / Whether to enable page access statistics
+  option: # waline配置项 / waline configuration item
+
+# valine 配置信息
+# valine settings
+valine:
+  appId: # leancloud application app id
+  appKey: # leancloud application app key
+  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+  avatar: # https://valine.js.org/avatar.html
+  visitor: false
+  style: true # Use custom styles when turned on / 开启后使用自定义样式
+  option: # options list
+
+# artalk 配置信息
+# artalk settings
+artalk:
+  server: # server url / 后端地址
+  site: # site name / 站点名
+  option: # options
 
 # 中控台扩展 ： 最新评论 + 标签 + 文章
 console_plus: true
@@ -792,21 +780,22 @@ font:
 # 插入额外代码 如：统计，广告等
 # Insert additional code such as: statistics, advertising, etc.
 extends:
-  head: 
-  
-  body: 
+  head: # 在head中插入 / Insert in head
+  # - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
+  body: # 在body中插入 / Insert in body
+
 # PWA
 # https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps
-# docs: https://solitude-docs.efu.me/configuration/extra#pwa
+# docs: https://docs.efu.me/configuration/extra#pwa
 pwa:
   enable: true
   manifest: /manifest.json # manifest.json 文件路径
   theme_color: "#006a73" # 主题颜色
-  mask_icon: https://fastly.jsdelivr.net/npm/solitude-source@1.0.0/img/pwa/180.png # 遮罩图标
-  apple_touch_icon: https://fastly.jsdelivr.net/npm/solitude-source@1.0.0/img/pwa/180.png # 苹果触摸图标
-  bookmark_icon: https://fastly.jsdelivr.net/npm/solitude-source@1.0.0/img/pwa/180.png # 书签图标
-  favicon_32_32: https://fastly.jsdelivr.net/npm/solitude-source@1.0.0/img/pwa/32.png # 32x32图标
-  favicon_16_16: https://fastly.jsdelivr.net/npm/solitude-source@1.0.0/img/pwa/16.png # 16x16图标
+  mask_icon: /img/pwa/favicon.ico # 遮罩图标
+  apple_touch_icon: /img/pwa/favicon.ico # 苹果触摸图标
+  bookmark_icon: /img/pwa/favicon.ico # 书签图标
+  favicon_32_32: /img/pwa/favicon_32.ico # 32x32图标
+  favicon_16_16: /img/pwa/favicon_16.ico # 16x16图标
 
 # 谷歌广告 (Google Adsense)
 google_adsense:
@@ -829,8 +818,8 @@ right_menu:
   commentBarrage: true # 是否显示热评开关 / Whether to display the hot comment switch.
   # 翻译功能（仅支持简繁）
   # Translation function (Simplified and Traditional Chinese only)
-  translate: 
-    enable: false
+  translate:
+    enable: true
     defaultEncoding: 2 # 1: 默认繁体 2: 默认简体
     translateDelay: 0 # 首次加载翻译迟疑时间
   # 自定义菜单项列表
@@ -867,7 +856,7 @@ CDN:
   internal: local
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: jsdelivr/unpkg/cdnjs/custom
-  third_party: custom
+  third_party: cdnjs
 
   # Add version number to url, true or false
   version: true
