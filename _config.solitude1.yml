@@ -152,7 +152,7 @@ hometop:
 # 顶部推荐轮播图
 # 使用方法：在文章的front matter中添加“recommend: true”
 # tip：建议开了这个就不要开hometop，其功能类似
-carousel: false
+carousel: true
 
 # --------------------------------------
 # Aside Settings
@@ -278,7 +278,7 @@ aside:
   # 侧边栏归档
   # aside archive
   archive:
-    enable: false
+    enable: true
     # 显示类型
     type: "month" # month: 按月 / year: 按年 : month: by month / year: by year
 
@@ -410,7 +410,7 @@ display_mode:
 # Recommended articles at the bottom of the article
 # --------------------------------------
 related_post:
-  enable: true
+  enable: false
   # 推荐文章数量
   # Number of recommended articles
   limit: 2
@@ -573,7 +573,7 @@ copy:
 # 懒加载
 # lazyload
 lazyload:
-  enable: true
+  enable: false
   field: site # post, site
   # 加载中显示图片
   # Loading display image
@@ -644,6 +644,7 @@ wordcount: true
 # 访问统计
 # access statistics
 busuanzi: false
+busuanzi_use: 0 # 0: 原版 / 1: 青秸(other: 其它自定義的busuanzi平台)
 
 # 搜索
 # search
@@ -672,17 +673,17 @@ post_ai:
   enable: true
   # 右侧显示的模型名称
   # Model name displayed on the right
-  modelName: GPT 4 
+  modelName: GPT 4
   # key
   # 具体获取方法见文档
   # Specific acquisition method, see the document
   key: 90aec95d869ffd1867a8
   # 自介
   # talk
-  talk: # 我是 Efu 开发的摘要生成助理EfuGPT，EfuGPT在静态部署时进行摘要的撰写，并且在访客访问时通过EfuCorrection转译后的文本摘要实现工具。我在这里只负责已经生成的摘要显示，你无法与我直接沟通，但我可以回答一些预设的问题。
+  talk: # 我是lisui 开发的摘要生成助理EfuGPT，lisuiGPT在静态部署时进行摘要的撰写，并且在访客访问时通过EfuCorrection转译后的文本摘要实现工具。我在这里只负责已经生成的摘要显示，你无法与我直接沟通，但我可以回答一些预设的问题。
   # 随机文章按钮
   # Random post button
-  randomPost: true
+  randomPost: false
   # 举报链接，不填不显示
   # Report link, do not fill in and do not display
   report: https://efu.me/
@@ -709,7 +710,7 @@ comment:
   pv: false # 是否使用評論統計頁面訪問
   avatar: https://cravatar.cn # Gravatar link
   newest_comment:
-    enable: false
+    enable: true
     storage: .5 # 缓存时间 1: 1天 / .5 : 半天 / Cache time 1: 1 day .5 : half a day
 
 # twikoo 配置信息
