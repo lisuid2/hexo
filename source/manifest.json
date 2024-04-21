@@ -33,18 +33,6 @@
             "purpose": "maskable"
         },
         {
-            "src": "/img/pwa/64.png",
-            "sizes": "64x64",
-            "type": "image/png",
-            "purpose": "any"
-        },
-        {
-            "src": "/img/pwa/64.png",
-            "sizes": "64x64",
-            "type": "image/png",
-            "purpose": "maskable"
-        },
-        {
             "src": "/img/pwa/180.png",
             "sizes": "180x180",
             "type": "image/png",
