@@ -818,7 +818,7 @@ extends:
 # https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps
 # docs: https://docs.efu.me/configuration/extra#pwa
 pwa:
-  enable: false
+  enable: true
   manifest: /manifest.json # manifest.json 文件路径
   theme_color: "#006a73" # 主题颜色
   mask_icon: https://fastly.jsdelivr.net/npm/solitude-source@1.0.0/img/pwa/180.png # 遮罩图标
