@@ -26,10 +26,10 @@ site:
     custom: lisui
   # 网页icon
   # Web icon
-  siteIcon: https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg
+  siteIcon: /img/pwa/favicon.ico
   # 页脚的Logo、加载动画默认的logo
   # Logo in the footer, default logo for loading animation
-  icon: https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg
+  icon: /img/pwa/favicon.ico
 
 # 导航栏
 # NavBar
@@ -56,9 +56,7 @@ nav:
      装备: /equipment/ || st-laptop-line
   #   工具箱: /tlink/ || st-tools-fill
      音乐馆: /music/ || st-disc-fill
-   关于:
      关于本站: /about/ || st-contacts-fill
-
 
   # 右侧按钮
   # Button on the right
@@ -94,33 +92,24 @@ hometop:
     # Carousel icon
     # tip: 76x76 size
     icon:
-    # # 名字 / Name
-    # HTML:
-    #   # 图片 / Image
-    #   img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/HTML.png
-    #   # 背景色 / Background color
-    #   color: "#e9572b"
-     JS:
-       img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/JS.png
+    # HTML: # 名字 / Name
+    #   img: https://7.isyangs.cn/34/65f2e42921677-34.png # 图片 / Image
+    #   color: "#e9572b" # 背景色 / Background color
+      JS:
+       img: https://7.isyangs.cn/34/65f2e43ceddda-34.png
        color: "#f7cb4f"
-     Kotlin:
-       img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/kotlin-logo.svg
-       color: "#ffffff"
-     Docker:
-       img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/docker.png
+      Docker:
+       img: https://7.isyangs.cn/34/65f2e45462045-34.png
        color: "#57b6e6"
-     Flutter:
-       img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/flutter.png
+      Flutter:
+       img: https://7.isyangs.cn/34/65f2e47acbe98-34.png
        color: "#ffffff"
-     WebPack:
-       img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/webpack.png
+      WebPack:
+       img: https://7.isyangs.cn/34/65f2e488bf8ed-34.png
        color: "#2e3a41"
-     Git:
-       img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/git.png
+      Git:
+       img: https://7.isyangs.cn/34/65f2e499066fa-34.png
        color: "#df5b40"
-     VS:
-       img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/vs-logo.svg
-       color: "#ffffff"
 
   # 左下跳转按钮
   # Banner lower left jump button
@@ -152,7 +141,7 @@ hometop:
 # 顶部推荐轮播图
 # 使用方法：在文章的front matter中添加“recommend: true”
 # tip：建议开了这个就不要开hometop，其功能类似
-carousel: true
+carousel: false
 
 # --------------------------------------
 # Aside Settings
@@ -174,7 +163,7 @@ aside:
   # Sidebar information displayed on the article page
   post:
     noSticky: "about"
-    Sticky: "allInfo,newestPost"
+    Sticky: "allinfo,newestPost"
   # 在页面中显示的侧边栏信息
   # Sidebar information displayed on the
   page:
@@ -190,7 +179,7 @@ aside:
     author:
       # 头像
       # Avatar
-      img: https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg
+      img: /img/avatar.png
       # 表情图片链接
       # Emoticon image link
       # tip: 26x26 size
@@ -200,10 +189,10 @@ aside:
     url: /about/
     # 文案1
     # label1
-    content: <b>生而无畏</b>。
+    content: 秋水共长天一色
     # 文案2
     # label2
-    content2: 战至终章
+    content2: 落霞与孤鹜齐飞
     # 个人信息卡片底部的小图标，按照例子填写
     # Small icons at the bottom of the personal information card, fill in according to the example
     # 个人信息卡片顶部按钮的打招呼语句
@@ -272,8 +261,7 @@ aside:
     # 高亮显示标签列表
     # Highlighted tag list
     highlight_list:
-      - '知识'
-      - '教程'
+      - Hexo
 
   # 侧边栏归档
   # aside archive
@@ -354,7 +342,7 @@ post:
     updated: true # 更新日期 / Update date
     locate: true # 位置 / Location
     wordcount: true # 字数 / Number of words
-    readtime: false # 访问 / uv
+    readtime: true # 访问 / uv
     pv: false # 浏览量 / pv
     comment: true # 评论数 / Comment count
   # 打赏
@@ -365,9 +353,25 @@ post:
     title: 感谢您的赞赏。
     desc: 因为有你们的支持，我才体会到写文章的价值。
     list:
-    #  - name: 支付宝
-    #    qcode: https://7.isyangs.cn/34/65f2e5a6d2ef5-34.png
-    #    color: var(--efu-blue)
+    #  - name: 爱发电
+    #    qcode: https://s3.qjqq.cn/47/661ba8e695f17.webp!color
+    #    url: https://afdian.net/a/efu0u0/
+    #    color: var(--efu-purple)
+    #  - name: Github Sponsor
+    #    qcode: https://s3.qjqq.cn/47/661ba900c4bc1.webp!color
+    #    url: https://github.com/sponsors/efuo
+    #    color: var(--efu-black)
+  # 分享按钮，需要是什么哪些按钮，填写后开启
+  share:
+    enable: false
+    list:
+    #  - qq
+    #  - weibo
+    #  - twitter
+    #  - facebook
+    #  - telegram
+    #  - whatsapp
+    #  - linkedin
   # 版权中订阅按钮跳转链接，填写地址后开启
   # Subscription button jump link in copyright
   rss: # /atom.xml
@@ -410,7 +414,7 @@ display_mode:
 # Recommended articles at the bottom of the article
 # --------------------------------------
 related_post:
-  enable: false
+  enable: true
   # 推荐文章数量
   # Number of recommended articles
   limit: 2
@@ -466,10 +470,9 @@ footer:
   links:
     # 为了主题能够得到更多的支持，建议保留主题链接
     # In order for the theme to get more support, it is recommended to keep the theme link
-    - name: 主题
-      url: https://github.com/valor-x/hexo-theme-solitude
     - name: 本站由晞云提供cdn服务
       url: https://www.lightxi.com/
+
 
 # 404 页面(404 page)
 errorpage:
@@ -498,6 +501,17 @@ says:
   # 即刻短文仅展示前n条
   # Talk short text only shows the first n
   strip: 30
+
+# 留言板
+# message board
+# 前置要求：需配置留言板页面
+# Pre-requirements: message board page needs to be configured
+envelope:
+  enable: false
+  line: 10 # 显示行数
+  speed: 20 # 播放速度
+  hover: true # 鼠标悬停暂停
+  loop: true # 循环播放
 
 # -------------------------
 # meeting-api，用于界面中的音乐胶囊和音乐馆页，可自定义api，不会请勿动。
@@ -573,7 +587,7 @@ copy:
 # 懒加载
 # lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # post, site
   # 加载中显示图片
   # Loading display image
@@ -657,16 +671,31 @@ search:
   # 推荐标签
   # Recommended tags
   tags:
-  - Solitude
     - Hexo
-  algolia_search:
-      enable: true
-      hits:
-         per_page: 6
+  algolia:
+   hits:
+      per_page: 6
   local:
     preload: false
     CDN:
 
+# Post Chat AI
+# 后台地址：https://ai.tianli0.top/?InviteID=OZ3Z0V2R
+tianli_talk:
+  enable: false
+  title: 智能客服与搜索
+  key: # https://ai.tianli0.top/?InviteID=OZ3Z0V2R
+  # 默认值
+  # backgroundColor: "var(--efu-main)",
+  # bottom: "60px",
+  option: #https://ai.tianli0.top/codeMaker.html
+  #  defaultInput: false
+  #  upLoadWeb: true
+  #  userTitle: Efu Chat
+  #  userDesc: 你好，我是 Efu 的智能客服，有什么可以帮助你的？
+  #  showInviteLink: 'https://ai.tianli0.top/?InviteID=OZ3Z0V2R'
+  #  blackDom:
+  #    - .aplayer
 # 文章摘要AI
 # post abstract AI
 post_ai:
@@ -680,10 +709,10 @@ post_ai:
   key: 90aec95d869ffd1867a8
   # 自介
   # talk
-  talk: # 我是lisui 开发的摘要生成助理EfuGPT，lisuiGPT在静态部署时进行摘要的撰写，并且在访客访问时通过EfuCorrection转译后的文本摘要实现工具。我在这里只负责已经生成的摘要显示，你无法与我直接沟通，但我可以回答一些预设的问题。
+  talk: # 我是 lisui 开发的摘要生成助理EfuGPT，lisui在静态部署时进行摘要的撰写，并且在访客访问时通过EfuCorrection转译后的文本摘要实现工具。我在这里只负责已经生成的摘要显示，你无法与我直接沟通，但我可以回答一些预设的问题。
   # 随机文章按钮
   # Random post button
-  randomPost: false
+  randomPost: true
   # 举报链接，不填不显示
   # Report link, do not fill in and do not display
   report: https://efu.me/
@@ -710,7 +739,7 @@ comment:
   pv: false # 是否使用評論統計頁面訪問
   avatar: https://cravatar.cn # Gravatar link
   newest_comment:
-    enable: true
+    enable: false
     storage: .5 # 缓存时间 1: 1天 / .5 : 半天 / Cache time 1: 1 day .5 : half a day
 
 # twikoo 配置信息
@@ -719,7 +748,7 @@ twikoo: # https://twikoo.js.org/
   envId: https://twikoo.lisui.top/.netlify/functions/twikoo
   region: # 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
   style: true # Use custom styles when turned on / 开启后使用自定义样式
-  accessToken: 92a1f07d6284545bc1d121919d96165 # AccessToken
+  accessToken: 16763c5595e842abb495d38d8caf34bb # AccessToken
   option: # twikoo option
 
 # waline 配置信息
@@ -789,12 +818,11 @@ extends:
 # https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps
 # docs: https://docs.efu.me/configuration/extra#pwa
 pwa:
-  enable: true
+  enable: false
   manifest: /manifest.json # manifest.json 文件路径
   theme_color: "#006a73" # 主题颜色
-  mask_icon: /img/pwa/favicon.ico # 遮罩图标
-  apple_touch_icon: /img/pwa/favicon.ico # 苹果触摸图标
-  bookmark_icon: /img/pwa/favicon.ico # 书签图标
+  mask_icon: https://fastly.jsdelivr.net/npm/solitude-source@1.0.0/img/pwa/180.png # 遮罩图标
+  apple_touch_icon: https://fastly.jsdelivr.net/npm/solitude-source@1.0.0/img/pwa/180.png # 苹果触摸图标标
   favicon_32_32: /img/pwa/favicon_32.ico # 32x32图标
   favicon_16_16: /img/pwa/favicon_16.ico # 16x16图标
 
@@ -874,8 +902,6 @@ CDN:
     # twikoo:
     # waline_js:
     # waline_css:
-    # sharejs:
-    # sharejs_css:
     # katex:
     # katex_copytex:
     # lazyload:
