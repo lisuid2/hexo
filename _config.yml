@@ -158,7 +158,7 @@ markdown:
   plugins:
     - '@renbaoshuo/markdown-it-katex'
   anchors:
-    level: 2
+    level: 1
     collisionSuffix: ''
     permalink: true
     permalinkClass: 'headerlink'

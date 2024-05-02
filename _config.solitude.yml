@@ -141,7 +141,7 @@ hometop:
 # 顶部推荐轮播图
 # 使用方法：在文章的front matter中添加“recommend: true”
 # tip：建议开了这个就不要开hometop，其功能类似
-carousel: false
+carousel: true
 
 # --------------------------------------
 # Aside Settings
@@ -163,12 +163,12 @@ aside:
   # Sidebar information displayed on the article page
   post:
     noSticky: "about"
-    Sticky: "allinfo,newestPost"
+    Sticky: "allinfo"
   # 在页面中显示的侧边栏信息
   # Sidebar information displayed on the
   page:
     noSticky: "about"
-    Sticky: "newestPost,allInfo"
+    Sticky: "newestPost"
   position: 1 # left(0): 左侧 / right(1): 右侧
   # 侧边栏个人信息卡片
   # Sidebar personal information
