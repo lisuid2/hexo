@@ -37,8 +37,8 @@ nav:
   # logo 箱子
   # logo group
   group:
-  # 项目: # 分类名称
-  #   Solitude: https://github.com/valor-x/hexo-theme-solitude || /img/pwa/favicon.ico # 子菜单名称(submenu name): 链接地址(address) || 图标(icon)
+   项目: # 分类名称
+     Solitude: https://github.com/valor-x/hexo-theme-solitude || /img/pwa/favicon.ico # 子菜单名称(submenu name): 链接地址(address) || 图标(icon)
 
   # 中心菜单
   # center menu
@@ -54,7 +54,7 @@ nav:
   #   宝藏博主: javascript:travelling() || st-gift-fill
    我的:
      装备: /equipment/ || st-laptop-line
-  #   工具箱: /tlink/ || st-tools-fill
+     工具箱: /tlink/ || st-tools-fill
      音乐馆: /music/ || st-disc-fill
      关于本站: /about/ || st-contacts-fill
 
@@ -77,17 +77,17 @@ nav:
 # 首页顶部样式
 # Home top style
 hometop:
-  enable: true # 是否打开 / if enable
+  enable: false # 是否打开 / if enable
   # banner display
   banner:
     # 左上角显示大文字
     # Large text displayed in the upper left corner
     # tip：可使用html标签
     # tip: html tags be used
-    title: 不够优秀<br>将被淘汰❤
+    title: 宁静致远<br>热爱生活
     # 左上角显示小文字
     # Small text displayed in the upper left corner
-    url: lisui.top
+    url: Hexo Theme Solitude
     # 轮播icon
     # Carousel icon
     # tip: 76x76 size
@@ -95,19 +95,19 @@ hometop:
     # HTML: # 名字 / Name
     #   img: https://7.isyangs.cn/34/65f2e42921677-34.png # 图片 / Image
     #   color: "#e9572b" # 背景色 / Background color
-      JS:
+     JS:
        img: https://7.isyangs.cn/34/65f2e43ceddda-34.png
        color: "#f7cb4f"
-      Docker:
+     Docker:
        img: https://7.isyangs.cn/34/65f2e45462045-34.png
        color: "#57b6e6"
-      Flutter:
+     Flutter:
        img: https://7.isyangs.cn/34/65f2e47acbe98-34.png
        color: "#ffffff"
-      WebPack:
+     WebPack:
        img: https://7.isyangs.cn/34/65f2e488bf8ed-34.png
        color: "#2e3a41"
-      Git:
+     Git:
        img: https://7.isyangs.cn/34/65f2e499066fa-34.png
        color: "#df5b40"
 
@@ -141,7 +141,7 @@ hometop:
 # 顶部推荐轮播图
 # 使用方法：在文章的front matter中添加“recommend: true”
 # tip：建议开了这个就不要开hometop，其功能类似
-carousel: true
+carousel: false
 
 # --------------------------------------
 # Aside Settings
@@ -163,12 +163,12 @@ aside:
   # Sidebar information displayed on the article page
   post:
     noSticky: "about"
-    Sticky: "allinfo"
+    Sticky: "newestPost"
   # 在页面中显示的侧边栏信息
   # Sidebar information displayed on the
   page:
     noSticky: "about"
-    Sticky: "newestPost"
+    Sticky: "newestPost,allInfo"
   position: 1 # left(0): 左侧 / right(1): 右侧
   # 侧边栏个人信息卡片
   # Sidebar personal information
@@ -183,16 +183,16 @@ aside:
       # 表情图片链接
       # Emoticon image link
       # tip: 26x26 size
-      sticker: https://7.isyangs.cn/34/65f2e4e0423cc-34.png
+      sticker: https://s3.qjqq.cn/47/6625c24f86311.webp!color
     # 点击作者名称跳转链接
     # Click the author name to jump link
     url: /about/
     # 文案1
     # label1
-    content: 秋水共长天一色
+    content: 分享自己对编程的<b>热爱</b>，对美好生活的<b>向往</b>，对知识海洋<b>探索历程</b>。
     # 文案2
     # label2
-    content2: 落霞与孤鹜齐飞
+    content2: 相信你可以在这里找到对你有用的知识和教程。
     # 个人信息卡片底部的小图标，按照例子填写
     # Small icons at the bottom of the personal information card, fill in according to the example
     # 个人信息卡片顶部按钮的打招呼语句
@@ -298,7 +298,7 @@ aside:
 # 首页文章配置信息
 # Configure information on the home page
 index_post_list:
-  direction: column # row / column
+  direction: row # row / column
   content: false # 1: post.description / 2: 自动获取description或截取内容(Automatically get descriptions or screenshots) / 3: 只使用截取内容(Use only screenshots) / false: 不显示内容(No content is displayed)
   length: 500 # 截取内容的长度 : The length of the screenshot content
   cover: both # left: 在左侧 : left / right: 在右侧 : right / both: 两侧 : both
@@ -343,8 +343,8 @@ post:
     locate: true # 位置 / Location
     wordcount: true # 字数 / Number of words
     readtime: true # 访问 / uv
-    pv: false # 浏览量 / pv
-    comment: true # 评论数 / Comment count
+    pv: true # 浏览量 / pv
+    comment: false # 评论数 / Comment count
   # 打赏
   # reward
   award:
@@ -382,6 +382,14 @@ post:
     mode: local # local：本地取色 / api：img2color取色 : local: local color / api: img2color color
     api: https://api.qjqq.cn/api/Imgcolor?img= # api地址 / api address
     time: 43200000 # api取色间隔（毫秒），默认为12小时 / api color interval (milliseconds), default is 12 hours
+  # footer
+  footer:
+    enable: false
+    desc: 来自lisui 的文章 # 介绍文字
+    button: # 跳转按钮
+      enable: true
+      name: 了解更多
+      url: /about/
 
 # -------------------------
 # 自定义主题
@@ -491,10 +499,10 @@ errorpage:
 # 前置要求：需配置即刻短文页面
 # Pre-requirements: talk now page needs to be configured
 says:
-  enable: true
+  enable: false
   # 主页的即刻轮播条
   # Talk carousel bar on the homepage
-  home_mini: true
+  home_mini: false
   # 1：张洪heo样式 / 2：Leonus样式
   # 1: Zhang Hong heo style / 2: Leonus style
   style: 1
@@ -671,6 +679,7 @@ search:
   # 推荐标签
   # Recommended tags
   tags:
+    - Solitude
     - Hexo
   algolia:
    hits:
@@ -709,7 +718,7 @@ post_ai:
   key: 90aec95d869ffd1867a8
   # 自介
   # talk
-  talk: # 我是 lisui 开发的摘要生成助理EfuGPT，lisui在静态部署时进行摘要的撰写，并且在访客访问时通过EfuCorrection转译后的文本摘要实现工具。我在这里只负责已经生成的摘要显示，你无法与我直接沟通，但我可以回答一些预设的问题。
+  talk: # 我是 lisui 开发的摘要生成助理EfuGPT，EfuGPT在静态部署时进行摘要的撰写，并且在访客访问时通过EfuCorrection转译后的文本摘要实现工具。我在这里只负责已经生成的摘要显示，你无法与我直接沟通，但我可以回答一些预设的问题。
   # 随机文章按钮
   # Random post button
   randomPost: true
@@ -739,7 +748,7 @@ comment:
   pv: false # 是否使用評論統計頁面訪問
   avatar: https://cravatar.cn # Gravatar link
   newest_comment:
-    enable: false
+    enable: true
     storage: .5 # 缓存时间 1: 1天 / .5 : 半天 / Cache time 1: 1 day .5 : half a day
 
 # twikoo 配置信息
@@ -848,7 +857,7 @@ right_menu:
   # 翻译功能（仅支持简繁）
   # Translation function (Simplified and Traditional Chinese only)
   translate:
-    enable: true
+    enable: false
     defaultEncoding: 2 # 1: 默认繁体 2: 默认简体
     translateDelay: 0 # 首次加载翻译迟疑时间
   # 自定义菜单项列表
