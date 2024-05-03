@@ -24,32 +24,39 @@ link: https://lisui.top/
 avatar: https://s3.qjqq.cn/3/64de148060f7b.webp!color
 descr: 生而无畏，站至终章
 ```
-{% endfold %}
-<style>
-    .tk-comments > .tk-submit {
-        opacity: 0;
-        height: 0;
-        transition: opacity .5s, height .5s;
-        overflow: hidden;
-    }
-</style>
+请 **勾选** 你符合的条件：
+
+<div id="friends_checkbox">
+<p>
+    <label><input type="checkbox" onclick="checkForm()"> 我已添加 <b>btwoa</b> 博客的友情链接</label>
+</p>
+<p>
+    <label><input type="checkbox" onclick="checkForm()"> 我的链接主体为 <b>个人</b>，网站类型为<b>博客</b></label>
+</p>
+<p>
+    <label><input type="checkbox" onclick="checkForm()"> 我的网站现在可以在中国大陆区域正常访问</label>
+</p>
+<p>
+    <label><input type="checkbox" onclick="checkForm()"> 网站内容符合中国大陆法律法规</label>
+</p>
+</div>
+
 <script>
-    var twikooSubmit = document.getElementsByClassName("tk-submit")[0];
-    if (twikooSubmit) {
-        twikooSubmit.style.opacity = "0";
+function checkForm() {
+    let comment = document.querySelector('.wl-comment');
+    if(comment===null) return;
+    let checkboxes = document.querySelectorAll('#friends_checkbox input[type="checkbox"]');
+    let content = document.querySelector('.wl-editor');
+    let allChecked = Array.from(checkboxes).every(checkbox => checkbox.checked);
+    if (allChecked) {
+        comment.style.display = 'block';
+        content.value = "```yaml \n- name: \n  link: \n  avatar: \n  descr: \n```";
+        content.focus();
+    } else {
+        comment.style.display = 'none';
+        content.value = '';
     }
-    function checkForm() {
-        var checkbox1 = document.getElementById("checkbox1");
-        var checkbox2 = document.getElementById("checkbox2");
-        var checkbox3 = document.getElementById("checkbox3");
-        var checkbox4 = document.getElementById("checkbox4");
-        var checkbox5 = document.getElementById("checkbox5");
-        var twikooSubmit = document.getElementsByClassName("tk-submit")[0];
-        if (checkbox1.checked && checkbox2.checked && checkbox3.checked && checkbox4.checked && checkbox5.checked) {
-            twikooSubmit.style.opacity = "1";
-            twikooSubmit.style.height = "auto";
-            twikooSubmit.style.overflow = "auto";
-            var input = document.getElementsByClassName('el-textarea__inner')[0];
-            let evt = document.createEvent('HTMLEvents');
-            evt.initEvent('input', true, true);
-            input.value = '昵称（请勿包含博客等字样）：\n网站地址（要求博客地址，请勿提交个人主页）：\n头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：\n描述：\n';
+}
+window.onload = checkForm;
+document.addEventListener('pjax:complete', checkForm);
+</script>
