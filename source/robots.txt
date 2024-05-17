@@ -9,5 +9,5 @@ Disallow: /js/
 Disallow: /css/
 Disallow: /fonts/
 Disallow: /fancybox/
-Sitemap: https://blog.lisui.top/sitemap.xml
-Sitemap: https://blog.lisui.top/baidu_sitemap.xml
+Sitemap: https://lisui.top/sitemap.xml
+Sitemap: https://lisui.top/baidu_sitemap.xml
