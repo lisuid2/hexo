@@ -691,7 +691,7 @@ busuanzi_use: 0 # 0: 原版 / 1: 青秸(other: 其它自定義的busuanzi平台)
 # warning：开启前需要安装搜索插件
 # warning: You need to install the search plugin before turning it on
 search:
-  enable: true
+  enable: false
   # algolia, local
   type: local
   # 推荐标签
