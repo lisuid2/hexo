@@ -759,7 +759,7 @@ katex:
 # comment
 # getting start: https://solitude.js.org/comments/comment
 comment:
-  use: # waline, twikoo, valine, artalk
+  use: twikoo # waline, twikoo, valine, artalk
   commentBarrage: true # 热评开关 / Hot comment switch
   lazyload: true # 懒加载
   count: true # 评论数展示
