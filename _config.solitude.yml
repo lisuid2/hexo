@@ -38,7 +38,7 @@ nav:
   # logo group
   group:
   # 项目: # 分类名称
-     Solitude: https://github.com/valor-x/hexo-theme-solitude || /img/pwa/favicon.ico # 子菜单名称(submenu name): 链接地址(address) || 图标(icon)
+  #   Solitude: https://github.com/valor-x/hexo-theme-solitude || /img/pwa/favicon.ico # 子菜单名称(submenu name): 链接地址(address) || 图标(icon)
 
   # 中心菜单
   # center menu
@@ -77,7 +77,7 @@ nav:
 # 首页顶部样式
 # Home top style
 hometop:
-  enable: true # 是否打开 / if enable
+  enable: false # 是否打开 / if enable
   # banner display
   banner:
     # 左上角显示大文字
@@ -189,7 +189,7 @@ aside:
     url: /about/
     # 背景图片
     # Background image
-    background: # https://s3.qjqq.cn/47/663af296b85f4.webp!color # 不设置不会展示（仅样式为1、2时有效）
+    background: https://s3.qjqq.cn/47/663af296b85f4.webp!color # 不设置不会展示（仅样式为1、2时有效）
     # 文案1
     # label1
     content: 分享自己对编程的<b>热爱</b>，对美好生活的<b>向往</b>，对知识海洋<b>探索历程</b>。 # 样式为1时无效
@@ -220,8 +220,8 @@ aside:
       - 🎮 电竞游戏爱好者
     # 个人信息卡片底部的小图标，按照例子填写
     information: # 样式为1时请不要超过4个
-    #  Github: https://github.com/efuo || st-github-line # 名称：链接 || 图标 / Name: link || icon
-    #  Bilibili: https://space.bilibili.com/1329819902 || st-bilibili-line
+      Github: https://github.com/efuo || st-github-line # 名称：链接 || 图标 / Name: link || icon
+      Bilibili: https://space.bilibili.com/1329819902 || st-bilibili-line
 
   # 二维码
   # Official account QR code
@@ -269,7 +269,7 @@ aside:
   # 侧边栏归档
   # aside archive
   archive:
-    enable: false
+    enable: true
     # 显示类型
     type: "month" # month: 按月 / year: 按年 : month: by month / year: by year
 
@@ -328,7 +328,7 @@ post:
     # -  # 默认图片 / default cover
     # 文章发布默认地址
     # default post locate
-    locate: japan
+    locate: Japan
     # 文章默认版权
     # default post copyright
     copyright:
