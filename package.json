@@ -40,7 +40,7 @@
     "hexo-server": "^3.0.0",
     "hexo-swpp": "^3.3.7",
     "hexo-theme-landscape": "^1.0.0",
-    "hexo-theme-solitude": "^1.7.13",
+    "hexo-theme-solitude": "^1.11.1",
     "hexo-wordcount": "^6.0.1",
     "swpp-backends": "^2.3.12"
   }
