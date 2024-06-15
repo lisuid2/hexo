@@ -105,7 +105,6 @@ deploy:
  type: 'git'
  repo: 
    Github: git@github.com:lisuid2/lisuid2.github.io.git
-   gitee:  git@gitee.com:light-starry-sand/light-starry-sand.git
  branch : master
  message: upload
 
