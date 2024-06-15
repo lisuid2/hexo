@@ -1,0 +1,231 @@
+banners:
+  - name: 王卓Sco	# 友链名称
+    link: https://blog.wzsco.top/	# 友链地址
+    avatar: https://bu.dusays.com/2023/12/19/658179febbfb5.png	# 显示头像
+links:
+  - class_name: 推荐 # 分类名称
+    descr: 博主 # 分类简介
+    type: item	# 显示方式，有两种 card / item
+    link_list:
+      - name: 王卓Sco	# 友链名称
+        link: https://blog.wzsco.top/	# 友链地址
+        avatar: https://bu.dusays.com/2023/12/19/658179febbfb5.png	# 显示头像
+        descr: 宁静致远，热爱生活。	# 友链简介
+        topimg: https://bu.dusays.com/2023/12/19/658179febbfb5.png	# 如果是card模式下，将显示
+        tag: 技术	# 左上角提示信息
+        cover: '#8bdf2d' # tag标签背景颜色
+      - name: 理随。
+        link: https://vercel.lisui.top/
+        avatar: https://s3.qjqq.cn/3/64de148060f7b.webp!color
+        descr: 生而无畏，站至终章
+        tag: 博主
+
+
+  - class_name: 技术
+    descr: 技术知识为主的博客
+    type: item
+    link_list:
+      - name: 张洪Heo
+        link: https://blog.zhheo.com/
+        avatar: https://bu.dusays.com/2022/12/28/63ac2812183aa.png
+        descr: 分享设计与科技生活
+        tag: 荐
+        color: vip
+
+      - name: 糖丸
+        link: https://tany.top
+        avatar: https://pic.tany.top/imgs/Header.jpg
+        descr: 及时当勉，岁月不待
+        tag: 推荐
+        color: vip
+
+      - name: 安知鱼
+        link: https://blog.anheyu.com/
+        avatar: https://img02.anheyu.com/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+        descr: 生活明朗，万物可爱
+        tag: 技术
+        color: vip
+
+      - name: 爱吃肉的猫
+        link: https://meuicat.com/
+        avatar: https://s3.qjqq.cn/3/6597fa6da06a7.webp!color
+        descr: 有肉有猫有生活.
+        color: vip
+
+        tag: 技术
+      - name: 嘻哈磕碜
+        link: https://hihopkc.github.io/
+        avatar: https://hihopkc-blog.oss-cn-shenzhen.aliyuncs.com/img/202303232356277.png
+        descr: 伙伴
+        color: vip
+        tag: 网络安全
+
+      - name: 冰梦无痕
+        link: https://hcer.top/
+        avatar: https://q1.qlogo.cn/g?b=qq&nk=1580777927&s=5
+        descr: 冰刻无痕-冰梦
+        tag: 技术
+        color: vip
+
+      - name: Ethan.Tzy
+        link: https://fe32.top/
+        avatar: https://bu.dusays.com/2022/05/02/626f92e193879.jpg
+        descr: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志
+        tag: 技术
+        color: vip
+
+      - name: 铭心石刻
+        link: https://blog.kouseki.cn/
+        avatar: https://blog.kouseki.cn/imgs/avatar.webp
+        descr: 愿岁并谢，与友长兮
+        tag: 石头
+        color: vip
+
+      - name: 青桔气球
+        link: https://blog.qjqq.cn/
+        avatar: https://avatar.qjqq.cn/1/646cdb372913c.webp!avatar
+        descr: 分享网络安全与科技生活
+        tag: 网络安全
+        color: vip
+        
+      - name: 轻笑Chuckle
+        link: https://www.qcqx.cn
+        avatar: https://www.qcqx.cn/img/head.webp
+        descr: 漫天倾尘,风中轻笑
+        siteshot: https://www.qcqx.cn/img/qcqx.webp  
+        tag: 荐
+        color: vip
+
+      - name: 小植同学
+        link: https://blog.xiaoztx.top
+        avatar: https://blog.xiaoztx.top/img/xiaozhi.jpg
+        descr: 生生不息，好运不止
+        tag: 小植
+        color: vip
+
+      - name: Leonus
+        link: https://blog.leonus.cn/
+        avatar: https://q1.qlogo.cn/g?b=qq&nk=990320751&s=5
+        descr: 进一寸有进一寸的欢喜。
+        tag: 技术
+        color: vip
+
+      - name: 樱花小镇
+        link: https://blog.sakura.vin
+        avatar: https://www.sakura.vin/favicon.ico
+        descr: 小园新种红樱树，闲绕花枝便当游。
+        tag: 樱花
+        color: vip
+
+      - name: 贰猹的小窝
+        link: https://noionion.top/
+        avatar: https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg
+        descr: 用这生命中的每一秒，给自己一个不后悔的未来
+        tag: 技术
+        color: vip
+
+      - name: 小染笔记
+        link: https://xrr.org.cn/
+        avatar: https://s3.qjqq.cn/3/6597fae83c03d.webp!color
+        descr: 不必借光而行，你我皆是星辰
+        color: vip
+        tag: 初七云
+        
+      - name: 老怀表
+        link: https://7t7t.top/
+        avatar: https://s3.qjqq.cn/3/6597fa06f3f1a.webp!color
+        descr: 老怀表
+        color: vip
+        tag: 技术
+
+      - name: 冰火之砺
+        link: https://blog.marice.top/
+        avatar: https://bu.dusays.com/2023/11/29/6567122d3f4a6.jpg
+        descr: 水穷暖春云起处
+        color: vip
+      - name: 明月博客
+        link: https://www.imydl.com/
+        avatar: https://www.imydl.com/wp-content/uploads/avatars/0ffc984d88751e6aa346bb2351b3d253.png
+        descr: 一个小小站长的博客
+        tag: 分享
+      - name: 极客蜂巢(GeekHive)
+        link: https://www.gkhive.com
+        avatar: https://cdn.oscode.top/wp/2023/09/20230903072315127-e1693725895386.png
+        descr: 共创型综合技术博客，在这里你能学习Java、C#等软件开发与测试知识。
+        color: vip
+        tag: 技术
+      - name: 杜老师说
+        link: https://dusays.com/
+        avatar: https://cdn.dusays.com/avatar.png
+        descr: 师者，传道，授业，解惑也！
+        tag: 荐
+        color: vip
+      - name: Coutrue
+        link: https://www.coutures.top/
+        avatar: https://s3.qjqq.cn/47/662f107412c8f.webp!color
+        topimg: https://s3.qjqq.cn/47/662f107412c8f.webp!color
+        descr: 不忘初心，方得始终
+        tag: Coutrue
+        color: vip
+
+
+
+
+  - class_name: 推荐 # 分类名称
+    descr: 我的小伙伴 # 分类简介
+    type: item	# 显示方式，有两种 card / item
+    link_list:
+      - name: Qing
+        link: https://blog.wuyuxi.cn/
+        avatar: https://cdnjson.com/images/2023/06/04/avatar.png
+        descr: 恰沐春风共同游，终只叹，木已舟。
+        color: vip
+      - name: 星の野 
+        link: https://byer.top/
+        descr: 我自是年少，韶华倾负 
+        avatar: https://bu.dusays.com/2023/10/01/6519291503349.jpg 
+        color: vip
+      - name: 葱苓sama
+        link: https://blog.ciraos.top
+        avatar: https://img01.anheyu.com/useruploads/222/2023/10/16/652cbfc482491.jpg
+        descr: Dare && Do
+        color: vip
+      - name: 海阔蓝
+        link: https://blog.hklan.top/
+        avatar: https://img.hklan.top/cover/%E5%9C%86%E5%A4%B4%E5%83%8F.png
+        descr: 生而热忱❤️,终也欢洽
+        color: vip
+      - name: 星辰博客
+        link: https://blog.starchen.top
+        avatar: https://blog.starchen.top/favicon.jpg
+        descr: 一个分享资源、技术、工具和教程的博客
+      - name: Pupper
+        link: https://pupper.cn
+        avatar: https://img.pupper.cn/img/202307151348675.png
+        descr: 记录学习、生活中的点点滴滴~
+        color: vip
+      - name: 八九
+        link: https://bkm.net/
+        avatar: https://wp.sqsq.net/view.php/83b79b23a1dc9f22289fc8983ef02cc3.jpeg
+        descr: 记录在人间苦逼的日子.
+      - name: 夜法之书的blog
+        link: https://blog.17lai.site
+        avatar: https://blog.17lai.site/favicon.webp
+        descr: 嵌入式，Linux Kernel&Driver, PT, Docker, Nas等等
+        tag: 推荐
+      - name: 清羽飞扬
+        link: https://blog.qyliu.top/
+        avatar: https://blog.qyliu.top/info/avatar.ico
+        descr: 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜
+      - name: June’s Blog
+        link: https://blog.june-pj.cn/
+        avatar: https://imgse.com/i/pFjVsHI
+        descr: 遇事不决，可问春风
+      - name: btwoa
+        link: https://blog.btwoa.com
+        avatar: https://blog.btwoa.com/btwoa.jpg
+        descr: 世界为你简单
+      - name: HiPeach
+        link: https://blog.opeach.cn
+        avatar: https://npm.elemecdn.com/opicture@1.0.0/main/avatar.webp
+        descr: 妙不可言

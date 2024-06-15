@@ -1,0 +1,33 @@
+essay_list:
+    - content: 自由 不是你想做什么就做什么，而是你不想做什么就不做什么。有所为，有所不为。 节制比放纵更接近自由。低级的自由，放纵就可以得到。高级的自由，克制就可以得到。顶级的自由，忍耐才能够得到
+      date: 2023/11/10 7:42:20
+      from: windows
+    - content: 折腾了一天自动部署终于复活了，继续优化我的博客。😊
+      date: 2023/8.25 10:14:30
+      from: windows10
+    - content: 自动部署又崩了真无语了呀，可能又要重开😭
+      date: 2023/8/11 02:20:04
+      from: 理随Redmin k50
+    - content: 似此星辰非昨夜,为谁风露立钟宵.
+      date: 2023/8/7 08:45:00
+      from: 知乎
+    - content: 人生无论怎么选择,都会有遗憾.我们不能站在后来的角度去批判当时的自己,如果重来一次的话,以你当时的心智和阅历你还是会做同样的选择,学会跟自己和解接受一个时期的自己😇
+      date: 2023/8/7 07:30:00
+      from: windows 理随 
+    - content: 无语了啊今天搞了algolia结果因为复制adm少了一个a一直报错，也算终于弄好了😌
+      date: 2023/7/30 09:27:44
+      from: windows
+    - content: 今天把安之鱼的配置文件弄的差不多，终于没有那么多控制台报错了
+      date: 2023/7/29 08:15:00
+      from: Redmi K50
+    - content: 搜索🔍支持缩略图显示啦（默认获取文章内容的第一张图片）
+      date: 2022/10/23 08:00:00
+      from: 安知鱼  
+    - content: 歌曲推荐
+      date: 2022/09/25
+      aplayer:
+        server: tencent
+        id: 001FGQba3i10mw
+    - content: JOJO是真的好看！
+      date: 2022/09/21
+      link: https://www.bilibili.c/ombangumi/play/ss39431?spm_id_from=333.337.0.0

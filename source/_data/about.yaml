@@ -1,0 +1,150 @@
+
+authorinfo:
+  leftTags:
+    - "🤖️ 数码科技爱好者"
+    - "🔍 分享与热心帮助"
+    - "🏠 智能家居小能手"
+  rightTags:
+    - "脚踏实地行动派 🏃"
+    - "团队小组发动机 🧱"
+    - "壮汉人狠话不多 💢"
+  image: "https://s3.qjqq.cn/3/64de148060f7b.webp!color"
+
+title: 关于本站
+
+contentinfo:  # 顶部个人信息展示
+  sup: 你好，很高兴认识你👋
+  name: 我叫理随  # 名称
+  title: 是一名学生  # 介绍
+  tip: 追求
+  slogan: 生而无畏<br>战至终章
+  mask:
+    - 优秀的产品
+    - 出色的设计
+    - 高效的编程
+    - 人性化的用户体验
+
+skills: # 根据需求添加
+  title: 技能
+  subtitle: 开启创造力
+  tags:
+    - title: Java
+      color: "#fff"
+      icon: https://bu.dusays.com/2023/04/09/643293b1184e9.jpg
+    - title: Docker
+      color: "#57b6e6"
+      icon: https://bu.dusays.com/2023/04/09/643293b0f0abe.png
+    - title: Photoshop
+      color: "#4082c3"
+      icon: https://bu.dusays.com/2022/12/15/639aa3a5c240e.png
+    - title: Node
+      color: "#333"
+      icon: https://npm.elemecdn.com/anzhiyu-blog@2.1.1/img/svg/node-logo.svg
+    - title: Webpack
+      color: "#2e3a41"
+      icon: https://bu.dusays.com/2023/04/09/643293b68026c.png
+    - title: Pinia
+      color: "#fff"
+      icon: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/pinia-logo.svg
+    - title: Python
+      color: "#fff"
+      icon: https://bu.dusays.com/2023/04/09/643293b1230f7.png
+    - title: Vite
+      color: "#937df7"
+      icon: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/vite-logo.svg
+    - title: Flutter
+      color: "#4499e4"
+      icon: https://bu.dusays.com/2023/04/09/643293b1055c2.png
+    - title: Vue
+      color: "#b8f0ae"
+      icon: https://bu.dusays.com/2023/04/09/643293b6788bd.png
+    - title: React
+      color: "#222"
+      icon: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K
+    - title: CSS3
+      color: "#2c51db"
+      icon: https://bu.dusays.com/2022/12/15/639aa3a5c251e.png
+    - title: JS
+      color: "#f7cb4f"
+      icon: https://bu.dusays.com/2023/04/09/643293b121f02.png
+    - title: HTML
+      color: "#e9572b"
+      icon: https://bu.dusays.com/2022/12/15/639aa3a5c241c.png
+    - title: Git
+      color: "#df5b40"
+      icon: https://bu.dusays.com/2023/04/09/643293b10ccdd.webp
+    - title: Apifox
+      color: "#e65164"
+      icon: https://bu.dusays.com/2022/11/19/6378d6458c6b6.png
+
+careers:
+  title: "生涯"
+  subtitle: "无限进步"
+  items:
+    - school: "软件工程"
+      major: "学习"
+      color: "#357ef5"
+  image: https://bu.dusays.com/2023/04/21/644287166329b.png  
+
+personalities:
+  tips: "性格"
+  title: "主角"
+  color: "#56a178"
+  type: "ENFJ-T"
+  image: "https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/ESFJ-A.svg"
+  link: "https://www.16personalities.com/"
+  linkText: "16personalities"
+  typeLink: "https://www.16personalities.com/ch/infp-人格"
+  typeName: "执政官"
+  myphoto: https://bu.dusays.com/2023/10/31/6540d809e3dcd.png
+
+motto:
+  title: 座右铭
+  prefix: 生而无畏，
+  content: 战至终章。
+expertise:
+  title: 特长
+  prefix: 辅助
+  specialist: 专家
+  content: 学习能力
+  level: MAX
+
+game1:
+  title: "爱好游戏"
+  img: https://bu.dusays.com/2023/12/28/658d0d9ca8816.png
+  icon: "fas fa-gamepad"
+  subtitle: "APEX LEGENDS"
+  tips_left: C位
+  tips_right: ID Wleelw
+
+
+likes:
+  - type: like-technology
+    bg: https://s3.qjqq.cn/3/65aa50f79eacd.webp!color
+    tips: 关注偏好
+    title: 王者荣耀
+    subtips: 理工男
+  - type: like-music
+    bg: https://s3.qjqq.cn/3/65aa513bb0b72.webp!color
+    tips: 音乐偏好
+    title: 民谣、古典、轻音乐
+    subtips: 跟 王卓Sco 一起欣赏更多音乐
+    button: true
+    button_text: 更多推荐
+    button_link: /music/
+
+tj: # 统计
+  url: # 需要到51la官网注册自行获取
+  img: https://bu.dusays.com/2023/03/12/640dc8c72f623.webp # 背景
+
+oneself:    # 按需填写
+  location: '中国，广东省' # 所在位置
+  birthYear: '2007' # 生日
+  university: 'xxxx'    # 毕业学校
+  major: 'xxxxx' # 专业
+  occupation: '学生'  # 职位
+  map:  # 你所在位置的地图
+    light: https://p.wzsco.top/3b9047a67e59dcf85682d3c8e066a106.png/cover   # 白天
+    dark: https://p.wzsco.top/f31ec672f8701d67d696cd3d18af0c79.webp/cover   # 夜晚
+
+
