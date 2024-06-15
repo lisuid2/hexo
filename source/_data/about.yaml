@@ -10,14 +10,14 @@ authorinfo:
     - "壮汉人狠话不多 💢"
   image: "https://s3.qjqq.cn/3/64de148060f7b.webp!color"
 
-title: 关于本站
+title: About this site
 
 contentinfo:  # 顶部个人信息展示
-  sup: 你好，很高兴认识你👋
-  name: 我叫理随  # 名称
-  title: 是一名学生  # 介绍
-  tip: 追求
-  slogan: 生而无畏<br>战至终章
+  sup: Hello, nice to meet you👋
+  name: My name is Li Sui  # 名称
+  title: Is a student# 介绍
+  tip: Pursue
+  slogan: Born to be fearless<br>Fight to the end
   mask:
     - 优秀的产品
     - 出色的设计

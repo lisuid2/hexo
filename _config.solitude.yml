@@ -26,10 +26,10 @@ site:
     custom: lisui
   # 网页icon
   # Web icon
-  siteIcon: /img/pwa/favicon.ico
+  siteIcon: /img/avatar.avif
   # 页脚的Logo、加载动画默认的logo
   # Logo in the footer, default logo for loading animation
-  icon: /img/pwa/favicon.ico
+  icon: /img/avatar.avif
 
 # 导航栏
 # NavBar
