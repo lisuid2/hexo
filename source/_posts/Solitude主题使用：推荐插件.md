@@ -5,6 +5,7 @@ tags:
   - - Hexo
 categories:
   - - Solitude
+cover: /img/Img (6).webp
 abbrlink: 348c00e5
 date: 2024-03-23 10:03:15
 ---

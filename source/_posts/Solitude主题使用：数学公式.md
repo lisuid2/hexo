@@ -7,6 +7,7 @@ tags:
   - - Hexo
 katex: true
 abbrlink: 83fe067a
+cover: /img/Img (1).webp
 date: 2024-03-23 17:29:06
 ---
 
