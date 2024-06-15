@@ -8,7 +8,7 @@
     "deploy": "hexo deploy",
     "server": "hexo server",
     "lisui": " hexo clean && hexo g && gulp &&  hexo d",
-    "li": "npx hexo cl && npx hexo g && gulp && npx hexo swpp && npx hexo d"
+    "li": "hexo cl && hexo g && gulp && hexo swpp && hexo d"
   },
   "hexo": {
     "version": "7.2.0"
