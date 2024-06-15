@@ -36,6 +36,7 @@
     "hexo-theme-landscape": "^1.0.0",
     "hexo-theme-solitude": "^1.7.13",
     "hexo-wordcount": "^6.0.1",
+<<<<<<< HEAD
     "katex": "^0.16.10",
     "swpp-backends": "^2.3.12"
   },
@@ -46,5 +47,8 @@
     "gulp-html-minifier-terser": "^7.1.0",
     "gulp-htmlclean": "^2.7.22",
     "gulp-terser": "^2.1.0"
+=======
+    "swpp-backends": "^2.3.12"
+>>>>>>> 04275ba927b90168b008954a146239694edde2bb
   }
 }

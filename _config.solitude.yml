@@ -864,7 +864,6 @@ pwa:
   apple_touch_icon: https://fastly.jsdelivr.net/npm/solitude-source@1.0.0/img/pwa/180.png # 苹果触摸图标标
   favicon_32_32: /img/pwa/favicon_32.ico # 32x32图标
   favicon_16_16: /img/pwa/favicon_16.ico # 16x16图标
-
 # 谷歌广告 (Google Adsense)
 google_adsense:
   enable: false
