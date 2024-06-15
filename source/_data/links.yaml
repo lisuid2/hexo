@@ -167,6 +167,19 @@ links:
         descr: 不忘初心，方得始终
         tag: Coutrue
         color: vip
+      - name: 你不知道的物語;
+        link: https://hitagi.icu/
+        avatar: https://www.hitagi.icu/img/avatar.jpg
+        descr: 要是能流行起來就好了。
+      - name: ytree知识树
+        link: https://ytree.fun/
+        avatar: https://ytree.fun/res/img/img.png
+        descr: YTree知识树，轻松在线创建和分享知识树、目录树、数据树和思维树等。
+      - name: 白贺BaiHe
+        link: https://blog.baispace.cn
+        descr: BAIHE，日常分享数据及产品相关知识及生活感悟
+        avatar: https://static001.baispace.cn/pubimg/logo.png
+
 
 
 
