@@ -10,7 +10,6 @@ categories:
 cover: /img/Img (7).webp
 abbrlink: 67e36e3e
 date: 2024-03-09 21:12:38
-cover:
 ---
 # 雷池简介
 什么是雷池

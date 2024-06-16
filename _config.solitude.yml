@@ -484,7 +484,7 @@ footer:
     - name: 本站由晞云提供cdn服务
       url: https://www.lightxi.com/
 
-# 404 页面(404 page)
+
 errorpage:
   # 图片
   # image
