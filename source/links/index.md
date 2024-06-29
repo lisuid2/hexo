@@ -14,7 +14,7 @@ descr: 生而无畏，站至终章
 
 <div id="friends_checkbox">
 <p>
-    <label><input type="checkbox" onclick="checkForm()"> 我已添加 <b>btwoa</b> 博客的友情链接</label>
+    <label><input type="checkbox" onclick="checkForm()"> 我已添加 <b>lisui</b> 博客的友情链接</label>
 </p>
 <p>
     <label><input type="checkbox" onclick="checkForm()"> 我的链接主体为 <b>个人</b>，网站类型为<b>博客</b></label>
